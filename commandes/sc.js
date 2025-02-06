@@ -34,23 +34,23 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-      *ANYWAY MD IMPORTANT INFO* 
+      *CRISS VMD IMPORTANT INFO* 
 ❒───────────────────❒
 *GITHUB LINK*
-> https://github.com/SIMON32883/MR-ANYWAY-MD
+> https://github.com/criss-vevo/CRISS-VMD
 
 *WHATSAPP GROUP*
-> https://whatsapp.com/channel/0029VagWQ255q08VTCRQKP09
+> https://whatsapp.com/channel/0029Vb0HIV2G3R3s2II4181g
 ⁠
 ╭───────────────────❒
 │❒⁠⁠⁠⁠ *RAM* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-│❒⁠⁠⁠⁠ *DEV1* : *mr anyway*
+│❒⁠⁠⁠⁠ *DEV1* : *criss vevo*
 │❒⁠⁠⁠⁠ *DEV2* : *Baraka Bega*
 ⁠⁠⁠⁠╰───────────────────❒
   `;
     
 let menuMsg = `
-     *anyway Tech*
+     *criss Tech*
 
 ❒────────────────────❒`;
 
