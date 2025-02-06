@@ -34,7 +34,7 @@ const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
 ╭──────────────────❂
-┊❂╭───*ANYWAY-MD*────❂
+┊❂╭───*CRISS-VMD*────❂
 ┊✺┊ *User* : ${s.OWNER_NAME}
 ┊✺┊ *Mode* : ${mode}
 ┊✺╰───────────────❂
@@ -44,7 +44,7 @@ const date = moment().format('DD/MM/YYYY');
 ╰──────────────────❂ \n\n`;
  
     let menuMsg=`  
-  **ANYWAY MD COMMANDS*
+  **CTISS VMD COMMANDS*
 `;
 
     for (const cat in coms) {
@@ -61,7 +61,7 @@ const date = moment().format('DD/MM/YYYY');
 ◇            ◇
 *—————✺✺✺✺—————*
 
-  *ANYWAY-MD*                                         
+  *CRISS-VMD*                                         
 *╰═════════════❂*
 `;
 
