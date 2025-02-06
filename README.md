@@ -8,7 +8,7 @@
 
 </p>
 <p align="center"> 
-  <a href="https://whatsapp.com/channel/0029VagWQ255q08VTCRQKP09">
+  <a href="https://whatsapp.com/channel/0029Vb0HIV2G3R3s2II4181g">
     <img alt=Support height="390" src="https://files.catbox.moe/a7p6tw.jpg"> 
     </p>
  
@@ -16,7 +16,7 @@
  
 
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&random=false&width=435&lines=THIS+IS+ANYWAY-MD+MADE+IN+TANZANIA+🇹🇿♥️🇹🇿" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&random=false&width=435&lines=THIS+IS+CRISS-VMD+MADE+IN+TANZANIA+🇹🇿♥️🇹🇿" alt="Typing SVG" /></a>
 
 
 
@@ -26,7 +26,7 @@
 #### SETUP 
 
 
-[`FORK`](https://github.com/SIMON32883/MR-ANYWAY-MD/fork)
+[`FORK`](https://github.com/criss-vevo/CRISS-VMD/fork)
 
 
  
