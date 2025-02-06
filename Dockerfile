@@ -9,7 +9,7 @@ RUN apt-get update && \
   npm i pm2 -g && \
   rm -rf /var/lib/apt/lists/*
   
-RUN git clone https://github.com/SIMON32883/CRISS-VMD  /root/ToshTech
+RUN git clone https://github.com/criss-vevo/CRISS-VMD  /root/anywayTech
 WORKDIR /root/toshtech/
 
 
