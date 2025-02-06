@@ -1,9 +1,9 @@
 {
   "name":"ANYWAY-MD-V1",
-  "description":"Best whatsapp bot developed by mr anyway ",
+  "description":"Best whatsapp bot developed by criss vevo ",
   "keywords":["bot","node","baileys","whatsapp"],
   "logo":"https://i.imgur.com/G5u9emw.jpeg",
-  "repository":"https://github.com/anywaytech2/ANYWAY-MD-V1",
+  "repository":"https://github.com/criss-vevo/CRISS-VMD",
   "succes_url":"/",
   "stack":"container",
   "env":{
@@ -41,7 +41,7 @@
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":"-ANYWAY-MD",
+      "value":"-CRISS-VMD",
       "required":false
 
     } ,
@@ -80,14 +80,14 @@
     
     "desc": "Your Name",
     "required": false,
-    "value": "Mr Anyway"
+    "value": "Criss Vevo"
   },
     "NUMERO_OWNER":
   {
     
     "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
     "required":false,
-    "value": "255678892xxx"
+    "value": "255687068xxx"
   },
     "WARN_COUNT":
   {
