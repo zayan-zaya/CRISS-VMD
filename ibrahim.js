@@ -896,18 +896,18 @@ zk.ev.on('group-participants.update', async (group) => {
         zk.ev.on("connection.update", async (con) => {
             const { lastDisconnect, connection } = con;
             if (connection === "connecting") {
-                console.log("ℹ️ CRISS-XBOT is connecting...");
+                console.log("ℹ️ CRISS VEVO is connecting...");
             }
             else if (connection === 'open') {
-                console.log("✅ CRISS-XBOT Connected to WhatsApp! ☺️");
+                console.log("✅ CRISS VEVO Connected to WhatsApp! ☺️");
                 console.log("--");
                 await (0, baileys_1.delay)(200);
                 console.log("------");
                 await (0, baileys_1.delay)(300);
                 console.log("------------------/-----");
-                console.log("CRISS-XBOT Md is Online 🕸\n\n");
+                console.log("CRISS VEVO is Online 🕸\n\n");
                 //chargement des commandes 
-                console.log("Loading CRISS-XBOT Commands ...\n");
+                console.log("Loading CRISS VEVO Commands ...\n");
                 fs.readdirSync(__dirname + "/commandes").forEach((fichier) => {
                     if (path.extname(fichier).toLowerCase() == (".js")) {
                         try {
@@ -940,10 +940,13 @@ zk.ev.on('group-participants.update', async (group) => {
 
                 let cmsg =` ⁠⁠⁠⁠
 ╭─────────────━┈⊷ 
-│🌏 *CRISS-XBOT CONNECTED*
+│🌏 *CRISS VEVO CONNECTED*
 ╰─────────────━┈⊷
 │💫 ᴘʀᴇғɪx: *[ ${prefixe} ]*
 │⭕ ᴍᴏᴅᴇ: *${md}*
+│
+│FOLLOW MY CHANNEL FOR UPDATES
+│https://whatsapp.com/channel/0029Vb0HIV2G3R3s2II4181g
 ╰─────────────━┈⊷
 
                 
