@@ -34,7 +34,7 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-      *CRISS VEVO BOT INFO* 
+          *CRISS VEVO BOT INFO* 
 ❒───────────────────❒
 *GITHUB LINK*
 >https://github.com/criss-vevo/CRISS-VMD
@@ -53,9 +53,9 @@ const date = moment().format('DD/MM/YYYY');
   `;
     
 let menuMsg = `
-     *CRISS VEVO OWNER*
+         *POWERED BY CRISS VEVO*
 
-❒────────────────────❒`;
+❒───────────────────❒`;
 
    var lien = mybotpic();
 
