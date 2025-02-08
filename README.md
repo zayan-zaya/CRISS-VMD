@@ -75,11 +75,5 @@ For any issues or to stay updated, use the options below:
 👇 Follow My WhatsApp Channel 🤝 
 [![Follow My WhatsApp Channel](https://img.shields.io/static/v1?label=Follow%20My%20WhatsApp%20Channel&message=follow&color=25D366&style=for-the-badge&logo=whatsapp&logoColor=white)](https://whatsapp.com/channel/0029Vb0HIV2G3R3s2II4181g)  
 
-<br>
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
-
-👇 Follow My GitHub 🤝
-[![Follow My GitHub](https://img.shields.io/static/v1?label=Follow%20My%20GitHub&message=GitHub&color=181717&style=for-the-badge&logo=github&logoColor=white)](https://github.com/Yassin994)  
-
-
-## no love 💕 no stress
