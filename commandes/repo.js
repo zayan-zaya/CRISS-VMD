@@ -34,10 +34,13 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-      *CRISS VMD IMPORTANT INFO* 
+      *CRISS VEVO BOT INFO* 
 ❒───────────────────❒
 *GITHUB LINK*
 >https://github.com/criss-vevo/CRISS-VMD
+
+*CONTACT OWNER*
+> https://wa.me/message/NY5RNQQH2DYTN1
 
 *WHATSAPP CHANNEL*
 > https://whatsapp.com/channel/0029Vb0HIV2G3R3s2II4181g
@@ -50,7 +53,7 @@ const date = moment().format('DD/MM/YYYY');
   `;
     
 let menuMsg = `
-     *CRISS TECH*
+     *CRISS VEVO OWNER*
 
 ❒────────────────────❒`;
 
