@@ -908,10 +908,10 @@ zk.ev.on('group-participants.update', async (group) => {
                 console.log("CRISS-XBOT Md is Online 🕸\n\n");
                 //chargement des commandes 
                 console.log("Loading CRISS-XBOT Commands ...\n");
-                fs.readdirSync(__dirname + "/commands").forEach((fichier) => {
+                fs.readdirSync(__dirname + "/commandes").forEach((fichier) => {
                     if (path.extname(fichier).toLowerCase() == (".js")) {
                         try {
-                            require(__dirname + "/commands/" + fichier);
+                            require(__dirname + "/commandes/" + fichier);
                             console.log(fichier + " Installed Successfully✔️");
                         }
                         catch (e) {
