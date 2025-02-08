@@ -1,5 +1,5 @@
 {
-  "name":"CRISS-XBOT",
+  "name":"CRISS-VEVO",
   "description":"Best whatsapp bot developed by criss vevo ",
   "keywords":["bot","node","baileys","whatsapp"],
   "logo":"https://files.catbox.moe/a7p6tw.jpg",
@@ -22,7 +22,7 @@
     "AUTO_LIKE_STATUS":
     {
       "description":"Your contact status will be reacting automatically(type yes to active or no to deactive  ; don't write in capital letter)",
-      "value":"no",
+      "value":"yes",
       "required":false
     }, "AUTO_DOWNLOAD_STATUS":
     {
@@ -41,7 +41,7 @@
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":"-CRISS-VMD",
+      "value":"-CRISS-VEVO",
       "required":false
 
     } ,
@@ -87,7 +87,7 @@
     
     "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
     "required":false,
-    "value": "255687068xxx"
+    "value": "255687068672"
   },
     "WARN_COUNT":
   {
