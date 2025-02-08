@@ -1,5 +1,5 @@
 {
-  "name":"CRISS-VEVO",
+  "name":"CRISS VEVO",
   "description":"Best whatsapp bot developed by criss vevo ",
   "keywords":["bot","node","baileys","whatsapp"],
   "logo":"https://files.catbox.moe/a7p6tw.jpg",
@@ -41,7 +41,7 @@
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":"-CRISS-VEVO",
+      "value":"-CRISS VEVO",
       "required":false
 
     } ,
@@ -108,12 +108,12 @@
   },
 	"ANTIDELETE2" : {
     "description": "if you want to enable anti delete message put yes else put no",
-    "value": "yes",
+    "value": "no",
         "required": false
 	},
   "ANTIDELETE1" : {
     "description": "if you want to enable anti delete message put yes else put no",
-    "value": "yes",
+    "value": "no",
         "required": false
   }
   },
