@@ -41,7 +41,7 @@
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":"-CRISS VEVO",
+      "value":"CRISS VEVO",
       "required":false
 
     } ,
