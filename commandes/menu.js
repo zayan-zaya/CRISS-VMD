@@ -44,7 +44,7 @@ const date = moment().format('DD/MM/YYYY');
 ╰──────────────────❂ \n\n`;
  
     let menuMsg=`  
-  **CRISS VEVO COMMANDS*
+  *CRISS VEVO COMMANDS*
 `;
 
     for (const cat in coms) {
@@ -61,7 +61,7 @@ const date = moment().format('DD/MM/YYYY');
 ◇            ◇
 *—————✺✺✺✺—————*
 
-   *CRISS VEVO*                                         
+   *POWERED BY CRISS VEVO*                                         
 *╰═════════════❂*
 `;
 
