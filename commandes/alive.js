@@ -43,7 +43,7 @@ const date = moment().format('DD/MM/YYYY');
  ${message}
  
  
- *ANYWAY-MD-WABOT*`
+ *CRISS VEVO*`
 
  if (lien.match(/\.(mp4|gif)$/i)) {
     try {
@@ -73,8 +73,7 @@ else {
     } else {
         if(!superUser) { repondre("there is no alive for this bot") ; return};
 
-      await   repondre("You have not yet saved your alive, to do this;  enter after alive your message and your image or video link in this context: .alive message;lien");
-         repondre("don't do fake thinks :)")
+      await   repondre("Hello CRISS VEVO BOT Is Alive");
      }
  } else {
 
@@ -88,7 +87,7 @@ else {
     
 await addOrUpdateDataInAlive(texte , tlien)
 
-repondre(' Holla🥴, *CRISS-VMD BOT* is alive just like you gee. ')
+repondre(' Holla🫡, *CRISS-VMD BOT* is alive just like you. ')
 
 }
     });
