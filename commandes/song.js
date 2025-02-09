@@ -29,14 +29,14 @@ zokou({
           
        let infoMess = {
           image: {url : videos[0]. thumbnail},
-         caption : `\nCRISS VEVO\n\n*Audio name :* _${videos[0].title}_
+         caption : `\n*CRISS VEVO*\n\n*Audio name :* _${videos[0].title}_
 
 *Time :* _${videos[0].timestamp}_
 
 *Url :* _${videos[0].url}_
 
 
-_*©SIR CRISS VEVO*_`
+_*©BY CRISS VEVO*_`
        }
 
       
