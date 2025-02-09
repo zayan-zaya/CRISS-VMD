@@ -50,8 +50,8 @@ const date = moment().format('DD/MM/YYYY');
         zk.sendMessage(dest, { video: { url: lien }, caption: alivemsg }, { quoted: ms });
     }
     catch (e) {
-        console.log("🥵🥵 Menu erreur " + e);
-        repondre("🥵🥵 Menu erreur " + e);
+        console.log("⚡⚡ Menu erreur " + e);
+        repondre("⚡⚡ Menu erreur " + e);
     }
 } 
 // Checking for .jpeg or .png
@@ -60,8 +60,8 @@ else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
         zk.sendMessage(dest, { image: { url: lien }, caption: alivemsg }, { quoted: ms });
     }
     catch (e) {
-        console.log("🥵🥵 Menu erreur " + e);
-        repondre("🥵🥵 Menu erreur " + e);
+        console.log("⚡⚡ Menu erreur " + e);
+        repondre("⚡⚡ Menu erreur " + e);
     }
 } 
 else {
@@ -87,7 +87,7 @@ else {
     
 await addOrUpdateDataInAlive(texte , tlien)
 
-repondre(' Holla🫡, *CRISS-VMD BOT* is alive just like you. ')
+repondre(' Holla🫵, *CRISS VEVO BOT* is alive just like you. ')
 
 }
     });
