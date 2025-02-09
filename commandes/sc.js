@@ -34,25 +34,25 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-      *CRISS VMD IMPORTANT INFO* 
+          *CRISS VEVO BOT INFO* 
 ❒───────────────────❒
 *GITHUB LINK*
 > https://github.com/criss-vevo/CRISS-VMD
 
-*WHATSAPP GROUP*
+*WHATSAPP CHANNEL*
 > https://whatsapp.com/channel/0029Vb0HIV2G3R3s2II4181g
 ⁠
 ╭───────────────────❒
 │❒⁠⁠⁠⁠ *RAM* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-│❒⁠⁠⁠⁠ *DEV1* : *criss vevo*
-│❒⁠⁠⁠⁠ *DEV2* : *Baraka Bega*
+│❒⁠⁠⁠⁠ *DEV1* : *Criss Tech*
+│❒⁠⁠⁠⁠ *DEV2* : *SIR CRISS VEVO*
 ⁠⁠⁠⁠╰───────────────────❒
   `;
     
 let menuMsg = `
-     *criss Tech*
+         *POWERED BY CRISS VEVO*
 
-❒────────────────────❒`;
+❒───────────────────❒`;
 
    var lien = mybotpic();
 
@@ -61,8 +61,8 @@ let menuMsg = `
         zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Beltahmd*, déveloper Beltah Tech" , gifPlayback : true }, { quoted: ms });
     }
     catch (e) {
-        console.log("🥵🥵 Menu erreur " + e);
-        repondre("🥵🥵 Menu erreur " + e);
+        console.log("💫💫 Menu erreur " + e);
+        repondre("💫💫 Menu erreur " + e);
     }
 } 
 // Vérification pour .jpeg ou .png
@@ -71,8 +71,8 @@ else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
         zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Beltahmd*, déveloper Beltah Tech" }, { quoted: ms });
     }
     catch (e) {
-        console.log("🥵🥵 Menu erreur " + e);
-        repondre("🥵🥵 Menu erreur " + e);
+        console.log("💫💫 Menu erreur " + e);
+        repondre("💫💫 Menu erreur " + e);
     }
 } 
 else {
