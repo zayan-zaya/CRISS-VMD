@@ -36,6 +36,7 @@ const date = moment().format('DD/MM/YYYY');
   let infoMsg =  `
           *CRISS VEVO BOT INFO* 
 ❒───────────────────❒
+
 *GITHUB LINK*
 > https://github.com/criss-vevo/CRISS-VMD
 
@@ -43,9 +44,9 @@ const date = moment().format('DD/MM/YYYY');
 > https://whatsapp.com/channel/0029Vb0HIV2G3R3s2II4181g
 ⁠
 ╭───────────────────❒
-│❒⁠⁠⁠⁠ *RAM* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-│❒⁠⁠⁠⁠ *DEV1* : *Criss Tech*
-│❒⁠⁠⁠⁠ *DEV2* : *SIR CRISS VEVO*
+ │❒⁠⁠⁠⁠ *RAM* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
+ │❒⁠⁠⁠⁠ *DEV1* : *Criss Tech*
+ │❒⁠⁠⁠⁠ *DEV2* : *SIR CRISS VEVO*
 ⁠⁠⁠⁠╰───────────────────❒
   `;
     
