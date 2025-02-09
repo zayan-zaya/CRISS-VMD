@@ -35,25 +35,29 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
- *Tap on the link to get session*
-  
- https://ibrahim-adams.vercel.app
+ *Tap on the link to get session 👇*
  
+  https://criss-xbot-x15p.onrender.com/
  
  *STEPS TO GET SESSION*
  
  1. Open link
+ 
  2. Enter your whatsapp number with your country code eg : 254,255. And tap submit
- 3. Ibrahim tech will sent you a code. Copy that code. Then whatsapp will sent Notification
- 4. Tap on that notification then enter in the code that Ibrahim tech sent you.
+ 
+ 3. CRISS VEVO will sent you a code. Copy that code. Then whatsapp will sent Notification
+ 
+ 4. Tap on that notification then enter in the code that CRISS VEVO sent you.
+ 
  5. It will load for sometime then Ibrahim tech will sent A long session to your inbox on whatsapp at your own number
+ 
  6. Copy that long session and sent it to your deployer.
  
  🚘🚘🚘
  `;
     
 let menuMsg = `
-> Made by : ©Ibrahim Adams 
+> Made by : ©CRISS VEVO 
 `;
 
    var lien = mybotpic();
@@ -63,8 +67,8 @@ let menuMsg = `
         zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Beltahmd*, déveloper Beltah Tech" , gifPlayback : true }, { quoted: ms });
     }
     catch (e) {
-        console.log("🥵🥵 Menu erreur " + e);
-        repondre("🥵🥵 Menu erreur " + e);
+        console.log("🤫🤫 Menu erreur " + e);
+        repondre("🤫🤫 Menu erreur " + e);
     }
 } 
 // Vérification pour .jpeg ou .png
@@ -73,8 +77,8 @@ else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
         zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Beltahmd*, déveloper Beltah Tech" }, { quoted: ms });
     }
     catch (e) {
-        console.log("🥵🥵 Menu erreur " + e);
-        repondre("🥵🥵 Menu erreur " + e);
+        console.log("🤫🤫 Menu erreur " + e);
+        repondre("🤫🤫 Menu erreur " + e);
     }
 } 
 else {
