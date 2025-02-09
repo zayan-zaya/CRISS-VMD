@@ -61,7 +61,7 @@ const date = moment().format('DD/MM/YYYY');
 ◇            ◇
 *—————✺✺✺✺—————*
 
-   *CRISS VEVO*                                         
+   *POWERED CRISS VEVO*                                         
 *╰═════════════❂*
 `;
 
