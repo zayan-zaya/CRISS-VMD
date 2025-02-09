@@ -36,6 +36,7 @@ const date = moment().format('DD/MM/YYYY');
   let infoMsg =  `
           *CRISS VEVO BOT INFO* 
 ❒───────────────────❒
+
 *GITHUB LINK*
 >https://github.com/criss-vevo/CRISS-VMD
 
@@ -43,12 +44,12 @@ const date = moment().format('DD/MM/YYYY');
 > https://wa.me/message/NY5RNQQH2DYTN1
 
 *WHATSAPP CHANNEL*
-> https://whatsapp.com/channel/0029Vb0HIV2G3R3s2II4181g
+>https://whatsapp.com/channel/0029Vb0HIV2G3R3s2II4181g
 ⁠
 ╭───────────────────❒
-│❒⁠⁠⁠⁠ *RAM* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-│❒⁠⁠⁠⁠ *DEV1* : *Criss Vevo*
-│❒⁠⁠⁠⁠ *DEV2* : *crisstech*
+ │❒⁠⁠⁠⁠ *RAM* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
+ │❒⁠⁠⁠⁠ *DEV1* : *Criss Vevo*
+ │❒⁠⁠⁠⁠ *DEV2* : *Criss tech*
 ⁠⁠⁠⁠╰───────────────────❒
   `;
     
@@ -64,8 +65,8 @@ let menuMsg = `
         zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Beltahmd*, déveloper Beltah Tech" , gifPlayback : true }, { quoted: ms });
     }
     catch (e) {
-        console.log("🥵🥵 Menu erreur " + e);
-        repondre("🥵🥵 Menu erreur " + e);
+        console.log("🤫🤫 Menu erreur " + e);
+        repondre("🤫🤫 Menu erreur " + e);
     }
 } 
 // Vérification pour .jpeg ou .png
@@ -74,8 +75,8 @@ else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
         zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Beltahmd*, déveloper Beltah Tech" }, { quoted: ms });
     }
     catch (e) {
-        console.log("🥵🥵 Menu erreur " + e);
-        repondre("🥵🥵 Menu erreur " + e);
+        console.log("🤫🤫 Menu erreur " + e);
+        repondre("🤫🤫 Menu erreur " + e);
     }
 } 
 else {
