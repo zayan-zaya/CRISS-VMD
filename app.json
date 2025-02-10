@@ -13,6 +13,12 @@
       "value":".",
       "required":true
     },
+    "ANTILINK_GROUP":
+    {
+      "description":"Enter yes for your bot to auto delete links and remove link senders",
+      "value":"yes",
+      "required":false
+    },
     "AUTO_READ_STATUS":
     {
       "description":"Your contact status will be read automatically(type yes to active or no to deactive  ; don't write in capital letter)",
