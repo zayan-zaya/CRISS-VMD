@@ -3,7 +3,7 @@ const { ezra } = require('../fredi/ezra');
 
 ezra({
   nomCom: "happi",
-  categorie: "fledi-funs",
+  categorie: "Criss-funs",
   reaction: "😂"
 }, async (dest, zk, commandeOptions) => {
   const { repondre, ms } = commandeOptions;
@@ -32,7 +32,7 @@ ezra({
 ezra({
   nomCom: "heart",
   aliases: ["moyo", "hrt"],
-  categorie: "fledi-fun",
+  categorie: "Criss-fun",
   reaction: "🫀"
 }, async (dest, zk, commandeOptions) => {
   const { repondre, ms } = commandeOptions;
@@ -60,7 +60,7 @@ ezra({
 });
 ezra({
   nomCom: "angry",
-  categorie: "fledi-fun",
+  categorie: "Criss-fun",
   reaction: "🥺"
 }, async (dest, zk, commandeOptions) => {
   const { repondre, ms } = commandeOptions;
@@ -89,7 +89,7 @@ ezra({
 ezra({
   nomCom: "sad",
   aliases: ["heartbroken", "hrtbroken"],
-  categorie: "fledi-fun",
+  categorie: "Criss-fun",
   reaction: "😒"
 }, async (dest, zk, commandeOptions) => {
   const { repondre, ms } = commandeOptions;
@@ -118,7 +118,7 @@ ezra({
 ezra({
   nomCom: "shy",
   aliases: ["shyoff", "shyy"],
-  categorie: "fledi-fun",
+  categorie: "Criss-fun",
   reaction: "🥂"
 }, async (dest, zk, commandeOptions) => {
   const { repondre, ms } = commandeOptions;
@@ -147,7 +147,7 @@ ezra({
 ezra({
   nomCom: "moon",
   aliases: ["mon", "mwezi"],
-  categorie: "fledi-fun",
+  categorie: "Criss-fun",
   reaction: "🌚"
 }, async (dest, zk, commandeOptions) => {
   const { repondre, ms } = commandeOptions;
@@ -176,7 +176,7 @@ ezra({
 
 ezra({
   nomCom: "nikal",
-  categorie: "fledi-fun",
+  categorie: "Criss-fun",
   reaction: "⁉️"
 }, async (dest, zk, commandeOptions) => {
   const { repondre, ms } = commandeOptions;
@@ -206,7 +206,7 @@ ezra({
 
 ezra({
   nomCom: "hand",
-  categorie: "fledi-fun",
+  categorie: "Criss-fun",
   reaction: "👊"
 }, async (dest, zk, commandeOptions) => {
   const { repondre, ms } = commandeOptions;
