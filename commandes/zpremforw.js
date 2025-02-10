@@ -23,7 +23,7 @@ ezra({ nomCom: "forward", categorie: 'Group', reaction: "📤" }, async (dest, z
       // Send the message directly to the member's DM
       await zk.sendMessage(memberNumber, { text: mess });
     }
-    repondre('*Lucky Md Forwarded Your Message To All group members in their DMs.*');
+    repondre('*CRISS VEVO Forwarded Your Message To All group members in their DMs.*');
   } else {
     repondre('*Only My Owner Can Use This Command.*');
   }
