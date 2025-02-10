@@ -9,7 +9,7 @@ ezra({
   const { repondre, ms } = commandeOptions;
   
   try {
-    const sentMessage = await zk.sendMessage(dest, { text: "🫣 *LUCKY HAPPY WE GO...* 🤦" });
+    const sentMessage = await zk.sendMessage(dest, { text: "🫣 *CRISS HAPPY WE GO...* 🤦" });
     const animations =  ['😃', '😄', '😁', '😊', '😎', '🥳', '😸', '😹', '🌞', '🌈', '😃', '😄', '😁', '😊', '😎', '🥳', '😸', '😹', '🌞', '🌈', '😃', '😄', '😁', '😊'];
     for (const animation of animations) {
       await new Promise(resolve => setTimeout(resolve, 1000));
