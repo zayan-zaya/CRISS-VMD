@@ -26,7 +26,7 @@ ezra({
     }
 
     // Construct the search message
-    let searchMessage = `LUCKY MD PLANET TWITTER SEARCH\n\n`;
+    let searchMessage = `CRISS VEVO TWITTER SEARCH\n\n`;
     searchMessage += `Creator: ${response.data.creator}\n\n`;  // Include the creator info
 
     // Loop through search results and append details to the message
@@ -48,9 +48,9 @@ ezra({
           mentionedJid: [dest],
           externalAdReply: {
             showAdAttribution: true,
-            title: "LUCKY MD TWITTER SEARCH",
+            title: "CRISS VEVO TWITTER SEARCH",
             body: "Pambe kwa Frediezra",
-            sourceUrl: "https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f",
+            sourceUrl: "https://whatsapp.com/channel/0029Vb0HIV2G3R3s2II4181g",
             mediaType: 1,
             renderLargerThumbnail: false,
           },
