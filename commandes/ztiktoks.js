@@ -26,7 +26,7 @@ ezra({
     }
 
     // Construct TikTok search message
-    let searchMessage = `LUCKY MD PLANET TIKTOK SEARCH\n\n`;
+    let searchMessage = `CRISS VEVO TIKTOK SEARCH\n\n`;
 
     // Loop through search results and construct track info with numbers
     searchData.forEach((track, index) => {
@@ -53,9 +53,9 @@ ezra({
           mentionedJid: [dest],
           externalAdReply: {
             showAdAttribution: true,
-            title: "LUCKY MD TIKTOK SEARCH",
-            body: "Pambe kwa Frediezra",
-            sourceUrl: "https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f",
+            title: "CRISS VEVO TIKTOK SEARCH",
+            body: "Lumumba kwa Criss Vevo",
+            sourceUrl: "https://whatsapp.com/channel/0029Vb0HIV2G3R3s2II4181g",
             mediaType: 1,
             renderLargerThumbnail: false,
           },
