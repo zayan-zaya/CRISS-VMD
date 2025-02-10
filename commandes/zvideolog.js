@@ -28,10 +28,10 @@ D ☞ tiger 🐯 video logo
     const contextInfo = {
       mentionedJid: [ms.sender], // Mention the sender
       externalAdReply: {
-        title: "LUCKY MD",
-        body: "Pambe Kwa, Frediezra",
+        title: "*CRISS VEVO*",
+        body: "Lumumba Kwa, CRISS VEVO",
         thumbnailUrl: "https://files.catbox.moe/7irwqn.jpeg",
-        sourceUrl: "https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f",
+        sourceUrl: "https://whatsapp.com/channel/0029Vb0HIV2G3R3s2II4181g",
         mediaType: 1,
         renderLargerThumbnail: true,
       },
@@ -80,7 +80,7 @@ D ☞ tiger 🐯 video logo
           await zk.sendMessage(dest, {
             video: { url: logoUrl },
             mimetype: "video/mp4",
-            caption: `> *Downloaded by Lucky Planet*`,
+            caption: `> *Downloaded by CRISS VEVO*`,
           }, { quoted: ms });
         }
       }
