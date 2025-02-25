@@ -32,7 +32,8 @@
  
 
 
-[`PAIRING CODE`](https://criss-md-bot.onrender.com)
+<p align="centre">
+<a href='https://criss-md-bot.onrender.com' target="_blank"><img alt='Pair Code' src='https://img.shields.io/badge/-Get Pairing Code-darkgreen?style=for-the-badge&logo=Whatsapp&logoColor=white'/< width=115 height=28/p></a>
 
 
 <p align="centre">
