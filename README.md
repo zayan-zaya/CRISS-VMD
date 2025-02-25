@@ -26,9 +26,7 @@
 #### SETUP 
 
 
-### FORK MY REPO
-
-  <a href="https://github.com/criss-vevo/CRISS-VMD/fork"><img title="CRISS-VMD" src="https://img.shields.io/badge/FORK-CRISS-VMDh?color=darkblue&style=for-the-badge&logo=stackshare"></a>
+  <a href="https://github.com/criss-vevo/CRISS-VMD/fork"><img title="CRISS-VMD" src="https://img.shields.io/badge/FORK?color=darkblue&style=for-the-badge&logo=stackshare"></a>
 
 <p align="centre">
 <a href='https://criss-md-bot.onrender.com' target="_blank"><img alt='Pair Code' src='https://img.shields.io/badge/-Get Pairing Code-red?style=for-the-badge&logo=Whatsapp&logoColor=white'/< width=115 height=28/p></a>
