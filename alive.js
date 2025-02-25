@@ -43,7 +43,7 @@ const date = moment().format('DD/MM/YYYY');
  ${message}
  
  
- *CRISS-CMD-WABOT*`
+ *CRISS-VMD-WABOT*`
 
  if (lien.match(/\.(mp4|gif)$/i)) {
     try {
