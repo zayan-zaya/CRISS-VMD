@@ -33,11 +33,11 @@
 
 
 <p align="centre">
-<a href='https://criss-md-bot.onrender.com' target="_blank"><img alt='Pair Code' src='https://img.shields.io/badge/-Get Pairing Code-green?style=for-the-badge&logo=Whatsapp&logoColor=white'/< width=115 height=40/p></a>
+<a href='https://criss-md-bot.onrender.com' target="_blank"><img alt='Pair Code' src='https://img.shields.io/badge/-Get Pairing Code-red?style=for-the-badge&logo=Whatsapp&logoColor=white'/< width=115 height=45/p></a>
 
 
 <p align="centre">
-<a href='https://criss-md-bot-qr.onrender.com/qr' target="_blank"><img alt='Qr Code' src='https://img.shields.io/badge/-Get Qr Code-green?style=for-the-badge&logo=Whatsapp&logoColor=white'/< width=115 height=28/p></a>
+<a href='https://criss-md-bot-qr.onrender.com/qr' target="_blank"><img alt='Qr Code' src='https://img.shields.io/badge/-Get Qr Code-red?style=for-the-badge&logo=Whatsapp&logoColor=white'/< width=115 height=28/p></a>
  
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
