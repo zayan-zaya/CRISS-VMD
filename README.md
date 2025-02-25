@@ -54,18 +54,17 @@
 
 
 
+**❖ FOR SUPPORT ❖**
+ 
+Stay connected with the latest updates and community by joining our official WhatsApp group and channel. You can also contact the owner directly.
+   <br>
+
+<a><img src='https://i.imgur.com/LyHic3i.gif'/>
+
+<a href="https://whatsapp.com/channel/0029Vb0HIV2G3R3s2II4181g"><img src="https://img.shields.io/badge/%F0%9F%8E%89%20ᴊᴏɪɴ%20ᴏᴜʀ%20ᴡʜᴀᴛsᴀᴘᴘ%20ᴄʜᴀɴɴᴇʟ-red" alt="🔰 ᴊᴏɪɴ ᴍʏ ᴡʜᴀᴛsᴀᴘᴘ ɢʀᴏᴜᴘ ғᴏʀ ᴜᴘᴅᴀᴛᴇ 🔰" width="300"></a>
 
 
-For any issues or to stay updated, use the options below:  
-
-✅ Contact Me on WhatsApp  
-[![Contact Me on WhatsApp](https://img.shields.io/static/v1?label=Contact%20Me%20on%20WhatsApp&message=Message&color=25D366&style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/message/NY5RNQQH2DYTN1)  
-
-<br>
-
-✅ Follow My WhatsApp Channel 
-
-[![Follow My WhatsApp Channel](https://img.shields.io/static/v1?label=Follow%20My%20WhatsApp%20Channel&message=follow&color=25D366&style=for-the-badge&logo=whatsapp&logoColor=white)](https://whatsapp.com/channel/0029Vb0HIV2G3R3s2II4181g)
+<a><img src='https://i.imgur.com/LyHic3i.gif'/>
 
 <a href="https://www.youtube.com/@criss-vevo"><img src="https://img.shields.io/badge/%F0%9F%8E%89%20ᴊᴏɪɴ%20ᴏᴜʀ%20ʏᴏᴜᴛᴜʙᴇ%20ᴄʜᴀɴɴᴇʟ-blue" alt="🔰 ᴊᴏɪɴ ᴍʏ ʏᴏᴜᴛᴜʙᴇ ғᴏʀ ᴜᴘᴅᴀᴛᴇ 🔰" width="300"></a>
 
