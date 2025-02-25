@@ -56,7 +56,9 @@
 
 **❖ FOR SUPPORT ❖**
  
-Stay connected with the latest updates and community by joining our official WhatsApp group and channel. You can also contact the owner directly.
+Stay connected with the latest updates and community
+By joining our official WhatsApp group and channel.
+You can also contact the owner directly.
    <br>
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/>
