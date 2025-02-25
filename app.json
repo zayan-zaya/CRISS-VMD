@@ -1,8 +1,8 @@
 {
-  "name": "✦ᴍᴀʟᴠɪɴ-xᴅ✦",
-  "description": "Javascript WhatsApp bot made by ɴᴇxᴜs ᴛᴇᴄʜ🪀",
-  "logo": "https://files.catbox.moe/y65ffs.jpg",
-  "keywords": ["MALVIN XD"],
+  "name": "✦CRISS VEVO✦",
+  "description": "Javascript WhatsApp bot made by CRISS VEVO🪀",
+  "logo": "https://files.catbox.moe/xro4ka.jpeg",
+  "keywords": ["CRISS VEVO"],
   "success_url": "/",
 
     "stack": "container",
@@ -16,19 +16,19 @@
     "MENU_IMG": {
       "description": "paste your image url if you don't have you can use this public url.",
       "required": false,
-      "value": "https://files.catbox.moe/y65ffs.jpg"
+      "value": "https://files.catbox.moe/xro4ka.jpeg"
     }, 
     
     "ALIVE_IMG": {
       "description": "paste your image url if you don't have you can use this public url.",
       "required": false,
-      "value": "https://files.catbox.moe/ktd1l4.jpg"
+      "value": "https://files.catbox.moe/xro4ka.jpeg"
     }, 
     
     "LIVE_MSG": {
       "description": "paste your alive message hear.",
       "required": false,
-      "value": "> ✦ᴍᴀʟᴠɪɴ xᴅ✦ ɪs sᴘᴀʀᴋɪɴɢ ᴀᴄᴛɪᴠᴇ ᴀɴᴅ ᴀʟɪᴠᴇ\n\n\nᴋᴇᴇᴘ ᴜsɪɴɢ ✦ᴍᴀʟᴠɪɴ xᴅ v2✦ ғʀᴏᴍ ɴᴇxᴜs ᴛᴇᴄʜ ɪɴᴄ⚡\n\n\n*© ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ - ᴍᴅ\n\n> ɢɪᴛʜᴜʙ :* github.com/kingmalvn/MALVIN-XD⚡"
+      "value": "> ✦CRISS VEVO✦ ɪs sᴘᴀʀᴋɪɴɢ ᴀᴄᴛɪᴠᴇ ᴀɴᴅ ᴀʟɪᴠᴇ\n\n\nᴋᴇᴇᴘ ᴜsɪɴɢ ✦CRISS VMD✦ ғʀᴏᴍ CRISS VEVO \n\n\n*© ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ - ᴍᴅ\n\n> ɢɪᴛʜᴜʙ :* github.com/criss-vevo/CRISS-MD"
     },
     
     "PREFIX": {
@@ -47,7 +47,7 @@
     "STICKER_NAME": {
       "description": "type your sticker pack name.",
       "required": false,
-      "value": "MALVIN-XD"
+      "value": "CRISS-MD"
     },
     
     
@@ -96,27 +96,27 @@
     "AUTO_STATUS_MSG": {
       "description": "Type custom message on status reply",
       "required": true,
-      "value": "*🎉👀 Seen by Nexus Tech🚀🔥*"
+      "value": "*🎉 Seen by CRISS VMD🚀*"
     }, 
 
     "OWNER_NAME": {
       "description": "Type Bot Owner Name.",
       "required": false,
-      "value": "Malvin King"
+      "value": "CRISS VEVO"
       
      }, 
 
     "OWNER_NUMBER": {
       "description": "put the owner number for bot.",
       "required": false,
-      "value": "263714757857"
+      "value": "255687068672"
 
     }, 
 
     "BOT_NAME": {
       "description": "Type here the bot name.",
       "required": false,
-      "value": "✦ᴍᴀʟᴠɪɴ xᴅ✦"
+      "value": "✦CRISS VMD✦"
 
       }, 
 
@@ -136,7 +136,7 @@
      "DESCRIPTION": {
       "description": "add caption for menu and other",
       "required": false,
-      "value": "*© POWERED BY ✦NEXUS TECH✦*"
+      "value": "*© POWERED BY ✦CRISS VEVO✦*"
     },
 
       "DELETE_LINKS": {
