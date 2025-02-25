@@ -33,6 +33,10 @@
 
 
 [`PAIRING CODE`](https://criss-md-bot.onrender.com)
+
+
+<p align="centre">
+<a href='https://criss-md-bot-qr.onrender.com/qr' target="_blank"><img alt='Qr Code' src='https://img.shields.io/badge/-Get Qr Code-green?style=for-the-badge&logo=Whatsapp&logoColor=white'/< width=115 height=28/p></a>
  
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
