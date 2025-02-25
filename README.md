@@ -56,10 +56,7 @@
 
 **❖ FOR SUPPORT ❖**
  
-Stay connected with the latest updates and community
-By joining our official WhatsApp group and channel.
-You can also contact the owner directly.
-   <br>
+Stay Connected With The Latest Updates By
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/>
 
