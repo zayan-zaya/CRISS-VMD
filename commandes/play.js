@@ -72,8 +72,8 @@ zokou({
         mimetype: 'audio/mp4',
         contextInfo: {
           externalAdReply: {
-            title: videoDetails.title,
-            body: videoDetails.title,
+            title: videoDetails.false,
+            body: videoDetails.false,
             mediaType: 1,
             sourceUrl: conf.GURL,
             thumbnailUrl: firstVideo.thumbnail,
@@ -82,19 +82,6 @@ zokou({
           },
         },
       },
-      {
-        document: { url: downloadUrl },
-        mimetype: 'audio/mpeg',
-        contextInfo: {
-          externalAdReply: {
-            title: videoDetails.title,
-            body: videoDetails.title,
-            mediaType: 1,
-            sourceUrl: conf.GURL,
-            thumbnailUrl: firstVideo.thumbnail,
-            renderLargerThumbnail: false,
-            showAdAttribution: true,
-          },
         },
       },
       {
@@ -102,8 +89,8 @@ zokou({
         mimetype: 'audio/mp4',
         contextInfo: {
           externalAdReply: {
-            title: videoDetails.title,
-            body: videoDetails.title,
+            title: videoDetails.false,
+            body: videoDetails.false,
             mediaType: 1,
             sourceUrl: conf.GURL,
             thumbnailUrl: firstVideo.thumbnail,
@@ -194,8 +181,8 @@ zokou({
         mimetype: 'video/mp4',
         contextInfo: {
           externalAdReply: {
-            title: videoDetails.title,
-            body: videoDetails.title,
+            title: videoDetails.false,
+            body: videoDetails.false,
             mediaType: 1,
             sourceUrl: conf.GURL,
             thumbnailUrl: firstVideo.thumbnail,
@@ -209,8 +196,8 @@ zokou({
         mimetype: 'video/mp4',
         contextInfo: {
           externalAdReply: {
-            title: videoDetails.title,
-            body: videoDetails.title,
+            title: videoDetails.false,
+            body: videoDetails.false,
             mediaType: 1,
             sourceUrl: conf.GURL,
             thumbnailUrl: firstVideo.thumbnail,
