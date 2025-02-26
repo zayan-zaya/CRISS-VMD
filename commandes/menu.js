@@ -30,7 +30,7 @@ zokou({ nomCom: "menu", categorie: "Menu" }, async (dest, zk, commandeOptions) =
     const date = moment().format('DD/MM/YYYY');
 
     let infoMsg = `
-╭━━✧ *𝗖𝗥𝗜𝗦𝗦-𝗩𝗘𝗩𝗢✧━━❖*
+╭━━✧𝗖𝗥𝗜𝗦𝗦 𝗩𝗘𝗩𝗢 𝗖𝗠𝗗✧━━❖
 ┊✺┌────••••────⊷
 ┃✇│◎ 𝙾𝚠𝚗𝚎𝚛 : ${s.OWNER_NAME}
 ┃✇│◎ 𝙿𝚛𝚎𝚏𝚒𝚡 : [ ${s.PREFIXE} ]
@@ -38,16 +38,11 @@ zokou({ nomCom: "menu", categorie: "Menu" }, async (dest, zk, commandeOptions) =
 ┃✇│◎ 𝚁𝚊𝚖  : 8/132 GB
 ┃✇│◎ 𝙳𝚊𝚝𝚎  : ${date}
 ┃✇│◎ 𝙿𝚕𝚊𝚝𝚏𝚘𝚛𝚖 : ${os.platform()}
-┃✇│◎ 𝙲𝚛𝚎𝚊𝚝𝚘𝚛 : Tinmasa 
+┃✇│◎ 𝙲𝚛𝚎𝚊𝚝𝚘𝚛 : 𝗖𝗥𝗜𝗦𝗦 𝗩𝗘𝗩𝗢 𝗖𝗠𝗗 
 ┃✇│◎ 𝙲𝚘𝚖𝚖𝚊𝚗𝚍𝚜 : ${cm.length}
 ┃✇│ 𝚃𝚑𝚎𝚖𝚎 : JB
 ┊   └────••••────⊷
-╰━━━••✧𝗖𝗥𝗜𝗦𝗦-𝗩𝗘𝗩𝗢✧••━━━◆ \n`;
-
-
-🌇Good evening! time to relax
-
-╰━━━••➤•••${readmore}
+╰━━━••✧𝗖𝗥𝗜𝗦𝗦 𝗩𝗘𝗩𝗢 𝗖𝗠𝗗✧••━━━◆ \n`;
 
     let menuMsg = `𝗖𝗥𝗜𝗦𝗦 𝗩𝗘𝗩𝗢 𝗖𝗠𝗗`;
     
@@ -57,7 +52,7 @@ zokou({ nomCom: "menu", categorie: "Menu" }, async (dest, zk, commandeOptions) =
 ║╭━━══••══━━••⊷ `;
         for (const cmd of coms[cat]) {
             menuMsg += `          
-║┊◆ ${s.PREFIXE}  ${cmd}`;    
+║┊◆ ${s.PREFIXE}  *${cmd}*`;    
         }
         menuMsg += `
 ║╰━━══••══━━••⊷
@@ -65,7 +60,7 @@ zokou({ nomCom: "menu", categorie: "Menu" }, async (dest, zk, commandeOptions) =
     }
     
     menuMsg += `
-> @𝗣𝗢𝗪𝗘𝗥𝗘𝗗 𝗕𝗬 𝗖𝗥𝗜𝗦𝗦 𝗩𝗘𝗩𝗢 𝗖𝗠𝗗\n`;
+> @𝗖𝗥𝗜𝗦𝗦 𝗩𝗘𝗩𝗢 𝗖𝗠𝗗\n`;
 
     try {
         const senderName = nomAuteurMessage || message.from;  // Use correct variable for sender name
