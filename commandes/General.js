@@ -94,7 +94,36 @@ else {
 zokou({ nomCom: "support", categorie: "General" }, async (dest, zk, commandeOptions) => {
   const { ms, repondre, auteurMessage, } = commandeOptions; 
  
-  repondre("THANK YOU FOR CHOOSING CRISS VEVO, HERE ARE OUR SUPPORTIVE LINKS\n\n ☉ CHANNEL LINK IS HERE ☉ \n\n❒⁠⁠⁠⁠[https://whatsapp.com/channel/0029Vb0HIV2G3R3s2II4181g] \n\n ☉ GROUP LINK IS HERE ☉\n\n❒⁠⁠⁠⁠[https://chat.whatsapp.com/Lh5EQEYJn5VIa4atNRPBm5] \n\n ☉YOUTUBE LINK IS HERE ☉\n\n❒⁠⁠⁠⁠[https://youtube.com/@criss_vevo?si=Va1vaZrdlfok0SWP] \n\n\n*POWERED BY CRISS VEVO") 
+  repondre
+` 
+THANK YOU FOR CHOOSING CRISS VMD,
+HERE ARE OUR SUPPORTIVE LINKS
+╔══════════════════╗
+𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝐋𝐈𝐍𝐊 𝐇𝐄𝐑𝐄
+https://whatsapp.com/channel/0029Vb0HIV2G3R3s2II4181g
+╚══════════════════╝
+╔══════════════════╗
+𝐆𝐈𝐓𝐇𝐔𝐁 𝐑𝐄𝐏𝐎 𝐒𝐓𝐎𝐑𝐘 𝐋𝐈𝐍𝐊
+https://github.com/criss-vevo/CRISS-VMD
+╚══════════════════╝
+╔══════════════════╗
+𝐒𝐄𝐒𝐒𝐈𝐎𝐍 𝐈𝐃 𝐒𝐈𝐓𝐄 𝐋𝐈𝐍𝐊
+https://criss-xbot-x15p.onrender.com/
+╚══════════════════╝
+╔══════════════════╗
+𝐅𝐀𝐂𝐄𝐁𝐎𝐎𝐊 𝐏𝐀𝐆𝐄 𝐋𝐈𝐍𝐊
+https://www.facebook.com/share/14rPTLXjb4/?mibextid=wwXIfr
+╚══════════════════╝
+╔══════════════════╗
+☉︎𝐖𝐏-𝐌𝐄-𝐎𝐖𝐍𝐄𝐑®️
+https://wa.me/message/NY5RNQQH2DYTN1
+╚══════════════════╝
+╔══════════════════╗
+♬𝐘𝐎𝐔𝐓𝐔𝐁𝐄 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝐋𝐈𝐍𝐊♬👇
+https://www.youtube.com/@criss-vevo
+╚══════════════════╝
+POWERED BY CRISS VEVO
+╚═══════════════════`
   await zk.sendMessage(auteurMessage,{text : `THANK YOU FOR CHOOSING CRISS VEVO,MAKE SURE YOU FOLLOW THESE LINKS. `},{quoted :ms})
 
 })
