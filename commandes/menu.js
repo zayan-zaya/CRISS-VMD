@@ -30,7 +30,7 @@ zokou({ nomCom: "menu", categorie: "Menu" }, async (dest, zk, commandeOptions) =
     const date = moment().format('DD/MM/YYYY');
 
     let infoMsg = `
-╭━━✧ *CRISS-VEVE✧━━❖*
+╭━━✧ *𝗖𝗥𝗜𝗦𝗦-𝗩𝗘𝗩𝗢✧━━❖*
 ┊✺┌────••••────⊷
 ┃✇│◎ 𝙾𝚠𝚗𝚎𝚛 : ${s.OWNER_NAME}
 ┃✇│◎ 𝙿𝚛𝚎𝚏𝚒𝚡 : [ ${s.PREFIXE} ]
@@ -42,14 +42,14 @@ zokou({ nomCom: "menu", categorie: "Menu" }, async (dest, zk, commandeOptions) =
 ┃✇│◎ 𝙲𝚘𝚖𝚖𝚊𝚗𝚍𝚜 : ${cm.length}
 ┃✇│ 𝚃𝚑𝚎𝚖𝚎 : JB
 ┊   └────••••────⊷
-╰━━━••✧CRISS-VEVE✧••━━━◆ \n`;
+╰━━━••✧𝗖𝗥𝗜𝗦𝗦-𝗩𝗘𝗩𝗢✧••━━━◆ \n`;
 
 
 🌇Good evening! time to relax
 
 ╰━━━••➤•••${readmore}
 
-    let menuMsg = `𝗖𝗥𝗜𝗦𝗦 𝗩𝗘𝗩𝗘 𝗖𝗠𝗗`;
+    let menuMsg = `𝗖𝗥𝗜𝗦𝗦 𝗩𝗘𝗩𝗢 𝗖𝗠𝗗`;
     
     for (const cat in coms) {
         menuMsg += `
@@ -65,7 +65,7 @@ zokou({ nomCom: "menu", categorie: "Menu" }, async (dest, zk, commandeOptions) =
     }
     
     menuMsg += `
-> @𝗖𝗥𝗜𝗦𝗦 𝗩𝗘𝗩𝗘 𝗖𝗠𝗗\n`;
+> @𝗣𝗢𝗪𝗘𝗥𝗘𝗗 𝗕𝗬 𝗖𝗥𝗜𝗦𝗦 𝗩𝗘𝗩𝗢 𝗖𝗠𝗗\n`;
 
     try {
         const senderName = nomAuteurMessage || message.from;  // Use correct variable for sender name
@@ -74,7 +74,7 @@ zokou({ nomCom: "menu", categorie: "Menu" }, async (dest, zk, commandeOptions) =
             contextInfo: {
                 mentionedJid: [senderName],
                 externalAdReply: {
-                    title: "𝗖𝗥𝗜𝗦𝗦 𝗩𝗘𝗩𝗘 𝗖𝗠𝗗",
+                    title: "𝗖𝗥𝗜𝗦𝗦 𝗩𝗘𝗩𝗢 𝗖𝗠𝗗",
                     body: "Tap here my friend join channel update",
                     thumbnailUrl: "https://files.catbox.moe/xro4ka.jpeg",
                     sourceUrl: "https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T",
