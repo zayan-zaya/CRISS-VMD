@@ -38,13 +38,13 @@ zokou({ nomCom: "menu", categorie: "Menu" }, async (dest, zk, commandeOptions) =
 ┃✇│◎ 𝚁𝚊𝚖  : 8/132 GB
 ┃✇│◎ 𝙳𝚊𝚝𝚎  : ${date}
 ┃✇│◎ 𝙿𝚕𝚊𝚝𝚏𝚘𝚛𝚖 : ${os.platform()}
-┃✇│◎ 𝙲𝚛𝚎𝚊𝚝𝚘𝚛 : 𝗖𝗥𝗜𝗦𝗦 𝗩𝗘𝗩𝗢 𝗖𝗠𝗗 
+┃✇│◎ 𝙲𝚛𝚎𝚊𝚝𝚘𝚛 : 𝗖𝗥𝗜𝗦𝗦 𝗩𝗘𝗩𝗢 
 ┃✇│◎ 𝙲𝚘𝚖𝚖𝚊𝚗𝚍𝚜 : ${cm.length}
-┃✇│ 𝚃𝚑𝚎𝚖𝚎 : JB
+┃✇│ 𝚃𝚑𝚎𝚖𝚎 : 𝗖𝗥𝗜𝗦𝗦
 ┊   └────••••────⊷
-╰━━━••✧𝗖𝗥𝗜𝗦𝗦 𝗩𝗘𝗩𝗢 𝗖𝗠𝗗✧••━━━◆ \n`;
+╰━━━••✧𝗖𝗥𝗜𝗦𝗦 𝗩𝗘𝗩𝗢✧••━━━◆ \n`;
 
-    let menuMsg = `𝗖𝗥𝗜𝗦𝗦 𝗩𝗘𝗩𝗢 𝗖𝗠𝗗`;
+    let menuMsg = ``;
     
     for (const cat in coms) {
         menuMsg += `
@@ -60,7 +60,7 @@ zokou({ nomCom: "menu", categorie: "Menu" }, async (dest, zk, commandeOptions) =
     }
     
     menuMsg += `
-> @𝗖𝗥𝗜𝗦𝗦 𝗩𝗘𝗩𝗢 𝗖𝗠𝗗\n`;
+> 𝗣𝗢𝗪𝗘𝗥𝗘𝗗 𝗕𝗬 𝗖𝗥𝗜𝗦𝗦 𝗩𝗘𝗩𝗢\n`;
 
     try {
         const senderName = nomAuteurMessage || message.from;  // Use correct variable for sender name
@@ -69,10 +69,10 @@ zokou({ nomCom: "menu", categorie: "Menu" }, async (dest, zk, commandeOptions) =
             contextInfo: {
                 mentionedJid: [senderName],
                 externalAdReply: {
-                    title: "𝗖𝗥𝗜𝗦𝗦 𝗩𝗘𝗩𝗢 𝗖𝗠𝗗",
-                    body: "Tap here my friend join channel update",
+                    title: "𝗖𝗥𝗜𝗦𝗦 𝗩𝗘𝗩𝗢 𝗨𝗣𝗗𝗔𝗧𝗘𝗦",
+                    body: "Tap here my friend join My channel For update",
                     thumbnailUrl: "https://files.catbox.moe/xro4ka.jpeg",
-                    sourceUrl: "https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T",
+                    sourceUrl: "https://whatsapp.com/channel/0029Vb0HIV2G3R3s2II4181g",
                     mediaType: 1,
                     renderLargerThumbnail: true
                 }
