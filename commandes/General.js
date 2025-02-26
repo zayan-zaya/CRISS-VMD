@@ -124,6 +124,4 @@ https://www.youtube.com/@criss-vevo
 ╚══════════════════╝
 POWERED BY CRISS VEVO
 ╚═══════════════════`
-  await zk.sendMessage(auteurMessage,{text : `THANK YOU FOR CHOOSING CRISS VEVO,MAKE SURE YOU FOLLOW THESE LINKS. `},{quoted :ms})
-
-})
+{quoted:ms});
