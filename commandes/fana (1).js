@@ -38,9 +38,9 @@ zokou({ nomCom: "menu", categorie: "Menu" }, async (dest, zk, commandeOptions) =
 ┃✇│◎ 𝚁𝚊𝚖  : 8/132 GB
 ┃✇│◎ 𝙳𝚊𝚝𝚎  : ${date}
 ┃✇│◎ 𝙿𝚕𝚊𝚝𝚏𝚘𝚛𝚖 : ${os.platform()}
-┃✇│◎ 𝙲𝚛𝚎𝚊𝚝𝚘𝚛 : ɴᴊᴀʙᴜʟᴏ ᴊʙ
+┃✇│◎ 𝙲𝚛𝚎𝚊𝚝𝚘𝚛 : veve
 ┃✇│◎ 𝙲𝚘𝚖𝚖𝚊𝚗𝚍𝚜 : ${cm.length}
-┃✇│◎ 𝚃𝚑𝚎𝚖𝚎 : JB
+┃✇│◎ 𝚃𝚑𝚎𝚖𝚎 : criss
 ┃✇└───────────⊷
 ╰━━━━━━━━━━━━━━━⊷\n
 
@@ -49,7 +49,7 @@ zokou({ nomCom: "menu", categorie: "Menu" }, async (dest, zk, commandeOptions) =
 ╰━━━••➤•••${readmore}
 `;
 
-    let menuMsg = `ɴᴊᴀʙᴜʟᴏ ᴊʙ ᴄᴍᴅ`;
+    let menuMsg = `𝐂𝐑𝐈𝐒𝐒 𝐕𝐄𝐕𝐎 𝐔𝐏𝐃𝐀𝐓𝐄𝐒`;
     
     for (const cat in coms) {
         menuMsg += `
@@ -66,7 +66,7 @@ zokou({ nomCom: "menu", categorie: "Menu" }, async (dest, zk, commandeOptions) =
     }
     
     menuMsg += `
-> @ᴍᴀᴅᴇ ʙʏ ɴᴊᴀʙᴜʟᴏ ᴊʙ 2025\n`;
+> @𝐌𝐀𝐃𝐄 𝐁𝐘 𝐂𝐑𝐈𝐒𝐒 𝐕𝐄𝐕𝐎\n`;
 
     try {
         const senderName = nomAuteurMessage || message.from;  // Use correct variable for sender name
@@ -75,7 +75,7 @@ zokou({ nomCom: "menu", categorie: "Menu" }, async (dest, zk, commandeOptions) =
             contextInfo: {
                 mentionedJid: [senderName],
                 externalAdReply: {
-                    title: "𝗡𝗝𝗔𝗕𝗨𝗟𝗢 𝗝𝗕 𝗠𝗘𝗡𝗨 𝗟𝗜𝗦𝗧",
+                    title: "𝐂𝐑𝐈𝐒𝐒 𝐕𝐄𝐕𝐎 𝐔𝐏𝐃𝐀𝐓𝐄𝐒",",
                     body: "Tap here my friend join channel update",
                     thumbnailUrl: "https://files.catbox.moe/60hwdx.jpeg",
                     sourceUrl: "https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T",
