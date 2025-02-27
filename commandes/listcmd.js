@@ -303,7 +303,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/y65ffs.jpg` },
+                image: { url: `https://files.catbox.moe/hhwdau.jpeg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
@@ -311,7 +311,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363306168354073@newsletter',
-                        newsletterName: 'Mʀ-Mᴀʟᴠɪɴ',
+                        newsletterName: '𝐂𝐑𝐈𝐒𝐒 𝐕𝐌𝐃',
                         serverMessageId: 143
                     }
                 }
@@ -321,7 +321,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
         // Send audio
         await conn.sendMessage(from, {
-            audio: { url: 'https://github.com/kingmalvn/KING-DATA/raw/refs/heads/main/autovoice/intro.mp3' },
+            audio: { url: 'https://github.com/criss-vevo/CRISS-VMD/raw/refs/heads/main/autovoice/intro.mp3' },
             mimetype: 'audio/mp4',
             ptt: true
         }, { quoted: mek });
