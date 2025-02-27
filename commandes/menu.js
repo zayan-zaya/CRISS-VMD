@@ -32,14 +32,14 @@ zokou({ nomCom: "menu", categorie: "Menu" }, async (dest, zk, commandeOptions) =
     let infoMsg = `
 ╭━━✧𝗖𝗥𝗜𝗦𝗦 𝗩𝗘𝗩𝗢 𝗖𝗠𝗗✧━━❖
 ┊✺┌────••••────⊷
-┃✇│◎ 𝙾𝚠𝚗𝚎𝚛 : ${s.OWNER_NAME}
-┃✇│◎ 𝙿𝚛𝚎𝚏𝚒𝚡 : [ ${s.PREFIXE} ]
+┃✇│◎ 𝙾𝚠𝚗𝚎𝚛 : ${
+┃✇│◎ 𝙿𝚛𝚎𝚏𝚒𝚡 : [ $]
 ┃✇│◎ 𝙼𝚘𝚍𝚎 : ${mode}
 ┃✇│◎ 𝚁𝚊𝚖  : 8/132 GB
 ┃✇│◎ 𝙳𝚊𝚝𝚎  : ${date}
-┃✇│◎ 𝙿𝚕𝚊𝚝𝚏𝚘𝚛𝚖 : ${os.platform()}
+┃✇│◎ 𝙿𝚕𝚊𝚝𝚏𝚘𝚛𝚖 : 
 ┃✇│◎ 𝙲𝚛𝚎𝚊𝚝𝚘𝚛 : 𝗖𝗥𝗜𝗦𝗦 
-┃✇│◎ 𝙲𝚘𝚖𝚖𝚊𝚗𝚍𝚜 : ${cm.length}
+┃✇│◎ 𝙲𝚘𝚖𝚖𝚊𝚗𝚍𝚜 : $
 ┃✇│ 𝚃𝚑𝚎𝚖𝚎 : 𝗩𝗘𝗩𝗢
 ┊   └────••••────⊷
 ╰━━━••✧𝗖𝗥𝗜𝗦𝗦 𝗩𝗘𝗩𝗢✧••━━━◆ \n`;
@@ -69,12 +69,7 @@ zokou({ nomCom: "menu", categorie: "Menu" }, async (dest, zk, commandeOptions) =
             contextInfo: {
                 mentionedJid: [senderName],
                 externalAdReply: {
-                    title: "𝗖𝗥𝗜𝗦𝗦 𝗩𝗘𝗩𝗢 𝗨𝗣𝗗𝗔𝗧𝗘𝗦",
-                    body: "Tap here my friend join My channel For update",
-                    thumbnailUrl: "https://files.catbox.moe/hhwdau.jpeg",
-                    sourceUrl: "https://whatsapp.com/channel/0029Vb0HIV2G3R3s2II4181g",
-                    mediaType: 1,
-                    renderLargerThumbnail: true
+                    title: "𝗖𝗥𝗜𝗦𝗦 𝗩𝗘𝗩𝗢 𝗨𝗣𝗗𝗔𝗧𝗘
                 }
             }
         });
