@@ -255,7 +255,7 @@ zokou({
 
 zokou(
   {
-    nomCom: 'ping',
+    nomCom: 'ping1',
     aliases: ['speed', 'latency'],
     desc: 'To check bot response time',
     categorie: 'system', // Fixed the typo here (Categorie -> categorie)
