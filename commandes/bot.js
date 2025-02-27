@@ -24,17 +24,17 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
    
  
  try {
-        let dec = `*𝐇𝐞𝐥𝐥𝐨 𝐭𝐡𝐞𝐫𝐞 𝐌𝐀𝐋𝐕𝐈𝐍 𝐗𝐌𝐃 𝐖.𝐀 𝐁𝐨𝐭 𝐔𝐬𝐞𝐫! 👋* 
+        let dec = `*𝐇𝐞𝐥𝐥𝐨 𝐭𝐡𝐞𝐫𝐞 𝐂𝐑𝐈𝐒𝐒 𝐕𝐌𝐃 𝐖.𝐀 𝐁𝐨𝐭 𝐔𝐬𝐞𝐫! 👋* 
 
-*𝑇𝒉𝑎𝑛𝑘𝑠 𝑓𝑜𝑟 𝑈𝑠𝑖𝑛𝑔 𝑴𝒂𝒍𝒗𝒊𝒏 𝑿𝑴𝑫 🫶* 
+*𝑇𝒉𝑎𝑛𝑘𝑠 𝑓𝑜𝑟 𝑈𝑠𝑖𝑛𝑔 𝐂𝐑𝐈𝐒𝐒 𝐕𝑴𝑫 🫶* 
 
 > Don't forget to star & fork the repo🌟🍴
 
-https://github.com/kingmalvn/MALVIN-XD
+https://github.com/criss-vevo/CRISS-VMD
 ──────────────────
 '`;
 
-        await conn.sendMessage(from, { image: { url: `https://files.catbox.moe/7pg2gp.jpg` }, caption: dec, contextInfo: { mentionedJid: [m.sender], forwardingScore: 999, isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: '120363306168354073@newsletter', newsletterName: '『 ᴍᴀʟᴠɪɴ xᴍᴅ 』', serverMessageId: 143 } } }, { quoted: mek });
+        await conn.sendMessage(from, { image: { url: `https://files.catbox.moe/hhwdau.jpeg` }, caption: dec, contextInfo: { mentionedJid: [m.sender], forwardingScore: 999, isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: '120363306168354073@newsletter', newsletterName: '『 ᴍᴀʟᴠɪɴ xᴍᴅ 』', serverMessageId: 143 } } }, { quoted: mek });
         
     } catch (e) {
         console.log(e);
@@ -67,7 +67,7 @@ cmd({
     filename: __filename,
 },
 async (conn, mek, m, { from, reply }) => {
-    const githubRepoURL = 'https://github.com/kingmalvn/MALVIN-XD';
+    const githubRepoURL = 'https://github.com/criss-vevo/CRISS-VMD';
 
     try {
         // Extract username and repo name from the URL
@@ -83,13 +83,13 @@ async (conn, mek, m, { from, reply }) => {
         const repoData = await response.json();
 
         // Format the repository information
-        const formattedInfo = `*𝐇𝐞𝐥𝐥𝐨 𝐭𝐡𝐞𝐫𝐞 𝐌𝐀𝐋𝐕𝐈𝐍 𝐗𝐃 𝐖.𝐀 𝐁𝐨𝐭 𝐔𝐬𝐞𝐫! 👋* 
+        const formattedInfo = `*𝐇𝐞𝐥𝐥𝐨 𝐭𝐡𝐞𝐫𝐞 𝐂𝐑𝐈𝐒𝐒 𝐕𝐌𝐃 𝐖.𝐀 𝐁𝐨𝐭 𝐔𝐬𝐞𝐫! 👋* 
 
 
-*𝑇𝒉𝑎𝑛𝑘𝑠 𝑓𝑜𝑟 𝑢𝑠𝑖𝑛𝑔 𝑴𝑨𝑳𝑽𝑰𝑵 𝑿𝑫 ᴠ2🌹🫶* 
+*𝑇𝒉𝑎𝑛𝑘𝑠 𝑓𝑜𝑟 𝑢𝑠𝑖𝑛𝑔 𝑪𝑹𝑰𝑺𝑺 𝑽𝑴𝑫🌹🫶* 
 
 ╭───────────────━⊷
-║ 🚀 ᴍᴀʟᴠɪɴ xᴅ ᴠ2 🚀
+║ 🚀 𝐂𝐑𝐈𝐒𝐒 𝐕𝐌𝐃 🚀
 ╰───────────────━⊷
 ╭───────────────━⊷
 ┊💡 *ɴᴀᴍᴇ:* *ᴍᴀʟᴠɪɴ xᴅ*
@@ -100,14 +100,14 @@ async (conn, mek, m, { from, reply }) => {
 
 > ᴅᴏɴ'ᴛ ғᴏʀɢᴇᴛ ᴛᴏ sᴛᴀʀ & ғᴏʀᴋ ᴛʜᴇ ʀᴇᴘᴏ🌟🍴
 
-║ ʀᴇᴘᴏ ʟɪɴᴋ: https://github.com/kingmalvn/MALVIN-XD 
+║ ʀᴇᴘᴏ ʟɪɴᴋ: https://github.com/criss-vevo/CRISS-VMD 
 ╰───────────────━⊷
 
 > sᴛᴀʏ ᴄᴏɴɴᴇᴄᴛᴇᴅ ғᴏʀ ғᴀɴᴛᴀsᴛɪᴄ ᴜᴘᴅᴀᴛᴇs!`;
 
         // Send an image with the formatted info as a caption and context info
         await conn.sendMessage(from, {
-            image: { url: `https://files.catbox.moe/y65ffs.jpg` },
+            image: { url: `https://files.catbox.moe/hhwdau.jpeg` },
             caption: formattedInfo,
             contextInfo: { 
                     mentionedJid: [m.sender],
@@ -115,7 +115,7 @@ async (conn, mek, m, { from, reply }) => {
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363306168354073@newsletter',
-                        newsletterName: 'ᴍᴀʟᴠɪɴ xᴅ ᴡᴀ ᴄʜᴀɴɴᴇʟ',
+                        newsletterName: '𝐂𝐑𝐈𝐒𝐒 𝐕𝐄𝐕𝐎',
                         serverMessageId: 143
                 }
             }
