@@ -1,14 +1,14 @@
 {
-  "name": "ᴅᴜʟʟᴀʜ-xᴍᴅ v²",
-  "description": "This BOT was developed by dullah.",
+  "name": "𝐂𝐑𝐈𝐒𝐒-𝐕𝐌𝐃",
+  "description": "This BOT Was Developed By 𝐂𝐑𝐈𝐒𝐒 𝐕𝐄𝐕𝐎.",
   "keywords": [
     "bot",
     "node",
     "baileys",
     "whatsapp"
   ],
-  "logo": "https://files.catbox.moe/533oqh.jpg",
-  "repository": "https://github.com/abdallahsalimjuma/DULLAH-XMD",
+  "logo": "https://files.catbox.moe/hhwdau.jpeg",
+  "repository": "https://github.com/criss-vevo/CRISS-VMD",
   "succes_url": "/",
   "stack": "container",
   "env": {
@@ -22,7 +22,7 @@
       "value": "yes",
       "required": false
     },
-    "DULLAH_CHATBOT":
+    "CRISS_CHATBOT":
     {
       "description":"Enter yes for your bot to audio chat to messages when offline ",
       "value":"no",
@@ -87,12 +87,12 @@
     },
     "BOT_NAME": {
       "description": "put A name for your bot",
-      "value": "ᴅᴜʟʟᴀʜ-xᴍᴅ v²",
+      "value": "𝐂𝐑𝐈𝐒𝐒-𝐕𝐌𝐃",
       "required": false
     },
     "BOT_MENU_LINKS": {
       "description": "add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-      "value":"https://files.catbox.moe/533oqh.jpg",
+      "value":"https://files.catbox.moe/hhwdau.jpeg",
       "required": false
     },
     "PUBLIC_MODE": {
@@ -102,12 +102,12 @@
     },
     "HEROKU_API_KEY": {
       "description": "insert your heroku api-key (OPTIONAL)",
-      "value" : "", 
+      "value" : "HRKU-1e6bb54b-0fa4-478e-978d-5f1ace317903", 
       "required": false
     },
     "HEROKU_APP_NAME": {
       "description": "insert your heroku APP NAME (OPTIONAL)",
-      "value" : "", 
+      "value" : "𝐂𝐑𝐈𝐒𝐒-𝐕𝐌𝐃", 
       "required": false
     },
     "SESSION_ID": {
@@ -118,12 +118,12 @@
     "OWNER_NAME": {
       "desc": "Your Name",
       "required": false,
-      "value": "ᴅᴜʟʟᴀʜ xᴍᴅ"
+      "value": "𝐂𝐑𝐈𝐒𝐒 𝐕𝐄𝐕𝐎"
     },
     "NUMERO_OWNER": {
       "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
       "required": false,
-      "value": "255716945971"
+      "value": "255687068672"
     },
     "WARN_COUNT": {
       "desc": "this is the limit of warn for warning commandes",
@@ -137,7 +137,7 @@
     },
     "PRESENCE": {
       "description": "Mark your presence: 1 to indicate that you are online even if you are not. 2 to indicate that you are currently typing a message. 3 to indicate that you are currently recording an audio. Or leave the field blank to indicate your real state.",
-      "value": "1",
+      "value": "",
       "required": false
     },
     "ANTI_DELETE_MESSAGE": {
@@ -162,7 +162,7 @@
  },
   "ANTIDELETE1" : {
     "description": "if you want to enable anti delete messages to be sent to your inbox put yes else put no",
-    "value": "no",
+    "value": "yes",
         "required": false
     }
   },
