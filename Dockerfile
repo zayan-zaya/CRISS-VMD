@@ -9,8 +9,8 @@ RUN apt-get update && \
   npm i pm2 -g && \
   rm -rf /var/lib/apt/lists/*
   
-RUN git clone https://github.com/criss-vevo/CRISS-VMD  /root/ToshTech
-WORKDIR /root/toshtech/
+RUN git clone https://github.com/criss-vevo/CRISS-VMD  /root/zokou_BOt
+WORKDIR /root/zokou_BOt/
 
 
 COPY package.json .
@@ -21,5 +21,5 @@ COPY . .
 
 EXPOSE 5000
 
-CMD ["npm", "run" , "ibrahim.js"]
+CMD ["npm", "run" , "index.js"]
 
