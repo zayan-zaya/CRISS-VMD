@@ -28,7 +28,7 @@ async function loading(dest, zk) {
     "⬜⬜⬛⬛⬛⬛⬜⬜꧁60%꧂",
     "⬜⬜⬜⬜⬛⬛⬛⬛꧁80%꧂",
     "⬛⬛⬜⬜⬜⬜⬛⬛꧁100%꧂",
-    "*𝐂𝐑𝐈𝐒𝐒 𝐌𝐃 𝐁𝐎𝐓 𝐈𝐒 𝐕𝐄𝐑𝐘 𝐅𝐀𝐒𝐓🌟*"
+    "*𝐂𝐑𝐈𝐒𝐒 𝐌𝐃-𝐒𝐏𝐄𝐄𝐃 𝐈𝐒⚔️🌟*"
   ];
 
   let { key } = await zk.sendMessage(dest, { text: 'Loading Please Wait' });
@@ -42,7 +42,7 @@ async function loading(dest, zk) {
 zokou({
   nomCom: "alive",
   aliases: ["alive", "testing"],
-  categorie: "General",
+  categorie: "system",
   reaction: "🌟"
 }, async (dest, zk, commandeOptions) => {
   const { ms } = commandeOptions;
