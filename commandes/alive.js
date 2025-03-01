@@ -73,7 +73,7 @@ else {
     } else {
         if(!superUser) { repondre("there is no alive for this bot") ; return};
 
-      await   repondre("CRISS VEVO BOT IS ALiVE ALL THE TIME👨‍💻");
+      await   repondre("CRISS VMD BOT IS ALiVE ALL THE TIME👨‍💻");
      }
  } else {
 
@@ -87,7 +87,7 @@ else {
     
 await addOrUpdateDataInAlive(texte , tlien)
 
-repondre(' Holla🫵, *CRISS VEVO BOT* is alive just like you. ')
+repondre(' Holla🫵, *CRISS MD BOT* is alive just like you. ')
 
 }
     });
