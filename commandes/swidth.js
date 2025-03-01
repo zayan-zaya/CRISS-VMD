@@ -11,7 +11,7 @@ zokou({
 
   try {
     // Caption for the screenshot
-    const cap = `*Screenshot taken by ᴅᴜʟʟᴀʜ-xᴍᴅ v²`;
+    const cap = `*Screenshot taken by 𝐂𝐑𝐈𝐒𝐒-𝐕𝐌𝐃`;
 
     // Check if a URL is provided
     if (!arg[0]) {
@@ -42,7 +42,7 @@ zokou({
 
   try {
     // Caption for the screenshot
-    const cap = `*Screenshot taken by ᴅᴜʟʟᴀʜ-xᴍᴅ v²`;
+    const cap = `*Screenshot taken by 𝐂𝐑𝐈𝐒𝐒-𝐕𝐌𝐃`;
 
     // Check if a URL is provided
     if (!arg[0]) {
@@ -73,7 +73,7 @@ zokou({
 
   try {
     // Caption for the screenshot
-    const cap = `*Screenshot taken by ᴅᴜʟʟᴀʜ-xᴍᴅ v²`;
+    const cap = `*Screenshot taken by 𝐂𝐑𝐈𝐒𝐒-𝐕𝐌𝐃`;
 
     // Check if a URL is provided
     if (!arg[0]) {
@@ -104,7 +104,7 @@ zokou({
 
   try {
     // Caption for the screenshot
-    const cap = `*Screenshot taken by ᴅᴜʟʟᴀʜ-xᴍᴅ v²`;
+    const cap = `*Screenshot taken by 𝐂𝐑𝐈𝐒𝐒-𝐕𝐌𝐃`;
 
     // Check if a URL is provided
     if (!arg[0]) {
@@ -136,7 +136,7 @@ zokou({
 
   try {
     // Caption for the screenshot
-    const cap = `*Screenshot taken by ᴅᴜʟʟᴀʜ-xᴍᴅ v²`;
+    const cap = `*Screenshot taken by 𝐂𝐑𝐈𝐒𝐒-𝐕𝐌𝐃`;
 
     // Check if a URL is provided
     if (!arg[0]) {
@@ -167,7 +167,7 @@ zokou({
 
   try {
     // Caption for the screenshot
-    const cap = `*Screenshot taken by ᴅᴜʟʟᴀʜ-xᴍᴅ v²`;
+    const cap = `*Screenshot taken by 𝐂𝐑𝐈𝐒𝐒-𝐕𝐌𝐃`;
 
     // Check if a URL is provided
     if (!arg[0]) {
@@ -199,7 +199,7 @@ zokou({
 
   try {
     // Caption for the screenshot
-    const cap = `*Screenshot take by ᴅᴜʟʟᴀʜ-xᴍᴅ v²`;
+    const cap = `*Screenshot take by 𝐂𝐑𝐈𝐒𝐒-𝐕𝐌𝐃`;
 
     // Check if a URL is provided
     if (!arg[0]) {
@@ -231,7 +231,7 @@ zokou({
 
   try {
     // Caption for the screenshot
-    const cap = `*Screenshot taken by ᴅᴜʟʟᴀʜ-xᴍᴅ v²`;
+    const cap = `*Screenshot taken by 𝐂𝐑𝐈𝐒𝐒-𝐕𝐌𝐃`;
 
     // Check if a URL is provided
     if (!arg[0]) {
@@ -262,7 +262,7 @@ zokou({
 
   try {
     // Caption for the screenshot
-    const cap = `*Screenshot taken by ᴅᴜʟʟᴀʜ-xᴍᴅ v²`;
+    const cap = `*Screenshot taken by 𝐂𝐑𝐈𝐒𝐒-𝐕𝐌𝐃`;
 
     // Check if a URL is provided
     if (!arg[0]) {
@@ -294,7 +294,7 @@ zokou({
 
   try {
     // Caption for the screenshot
-    const cap = `*Screenshot taken by ᴅᴜʟʟᴀʜ-xᴍᴅ v²`;
+    const cap = `*Screenshot taken by 𝐂𝐑𝐈𝐒𝐒-𝐕𝐌𝐃`;
 
     // Check if a URL is provided
     if (!arg[0]) {
@@ -325,7 +325,7 @@ zokou({
 
   try {
     // Caption for the screenshot
-    const cap = `*Screenshot taken by ᴅᴜʟʟᴀʜ-xᴍᴅ v²`;
+    const cap = `*Screenshot taken by 𝐂𝐑𝐈𝐒𝐒-𝐕𝐌𝐃`;
 
     // Check if a URL is provided
     if (!arg[0]) {
@@ -356,7 +356,7 @@ zokou({
 
   try {
     // Caption for the screenshot
-    const cap = `*Screenshot taken by ᴅᴜʟʟᴀʜ-xᴍᴅ v²`;
+    const cap = `*Screenshot taken by 𝐂𝐑𝐈𝐒𝐒-𝐕𝐌𝐃`;
 
     // Check if a URL is provided
     if (!arg[0]) {
@@ -388,7 +388,7 @@ zokou({
 
   try {
     // Caption for the screenshot
-    const cap = `*Screenshot taken by ᴅᴜʟʟᴀʜ-xᴍᴅ v²`;
+    const cap = `*Screenshot taken by 𝐂𝐑𝐈𝐒𝐒-𝐕𝐌𝐃`;
 
     // Check if a URL is provided
     if (!arg[0]) {
@@ -420,7 +420,7 @@ zokou({
 
   try {
     // Caption for the screenshot
-    const cap = `*Screenshot taken by ᴅᴜʟʟᴀʜ-xᴍᴅ v²`;
+    const cap = `*Screenshot taken by 𝐂𝐑𝐈𝐒𝐒-𝐕𝐌𝐃`;
 
     // Check if a URL is provided
     if (!arg[0]) {
@@ -452,7 +452,7 @@ zokou({
 
   try {
     // Caption for the screenshot
-    const cap = `*Screenshot taken by ᴅᴜʟʟᴀʜ-xᴍᴅ v²`;
+    const cap = `*Screenshot taken by 𝐂𝐑𝐈𝐒𝐒-𝐕𝐌𝐃`;
 
     // Check if a URL is provided
     if (!arg[0]) {
@@ -484,7 +484,7 @@ zokou({
 
   try {
     // Caption for the screenshot
-    const cap = `*Screenshot taken by ᴅᴜʟʟᴀʜ-xᴍᴅ v²`;
+    const cap = `*Screenshot taken by 𝐂𝐑𝐈𝐒𝐒-𝐕𝐌𝐃`;
 
     // Check if a URL is provided
     if (!arg[0]) {
@@ -915,7 +915,7 @@ zokou({
     const imageUrl = `https://api.popcat.xyz/clown?text=${text}`;
     message.sendMessage(user, {
       'image': { 'url': imageUrl },
-      'caption': "*powered by ᴅᴜʟʟᴀʜ-xᴍᴅ v²"
+      'caption': "*powered by 𝐂𝐑𝐈𝐒𝐒-𝐕𝐌𝐃"
     }, { 'quoted': ms });
   } catch (error) {
     console.error("Error:", error.message || "An error occurred");
@@ -960,7 +960,7 @@ zokou({
   const { respond: sendMessage, args, messageInstance } = context;
   try {
     if (!args || args.length === 0) {
-      return sendMessage("Please insert the image URL and LUCKY-MD will extract the text for you.");
+      return sendMessage("Please insert the image URL and 𝐂𝐑𝐈𝐒𝐒-𝐕𝐌𝐃 will extract the text for you.");
     }
     const imageUrl = args.join(" ");
     const extractedTextUrl = "https://www.samirxpikachu.run.place/extract/text?url=" + imageUrl;
@@ -987,7 +987,7 @@ zokou({
   const { respond: sendMessage, args, messageInstance } = context;
   try {
     if (!args || args.length === 0) {
-      return sendMessage("Please describe your image and LUCKY-MD will generate it.");
+      return sendMessage("Please describe your image and 𝐂𝐑𝐈𝐒𝐒-𝐕𝐌𝐃 will generate it.");
     }
     const prompt = args.join(" ");
     const generatedImageUrl = "https://www.samirxpikachu.run.place/flux?prompt=" + prompt;
@@ -995,7 +995,7 @@ zokou({
       'image': {
         'url': generatedImageUrl
       },
-      'caption': "*powered by ᴅᴜʟʟᴀʜ-xᴍᴅ v²*"
+      'caption': "*powered by 𝐂𝐑𝐈𝐒𝐒-𝐕𝐌𝐃*"
     }, {
       'quoted': messageInstance
     });
@@ -1016,7 +1016,7 @@ zokou({
   const { respond: sendMessage, args, messageInstance } = context;
   try {
     if (!args || args.length === 0) {
-      return sendMessage("Please describe your image and LUCKY-MD will generate it.");
+      return sendMessage("Please describe your image and 𝐂𝐑𝐈𝐒𝐒-𝐕𝐌𝐃 will generate it.");
     }
     const prompt = args.join(" ");
     const generatedImageUrl = "https://www.samirxpikachu.run.place/multi/Ml?prompt=" + prompt;
@@ -1024,7 +1024,7 @@ zokou({
       'image': {
         'url': generatedImageUrl
       },
-      'caption': "*powered by ᴅᴜʟʟᴀʜ-xᴍᴅ v²"
+      'caption': "*powered by 𝐂𝐑𝐈𝐒𝐒-𝐕𝐌𝐃"
     }, {
       'quoted': messageInstance
     });
@@ -1051,7 +1051,7 @@ zokou({
       'image': {
         'url': beautifiedImageUrl
       },
-      'caption': "*powered by ᴅᴜʟʟᴀʜ-xᴍᴅ v²"
+      'caption': "*powered by 𝐂𝐑𝐈𝐒𝐒-𝐕𝐌𝐃"
     }, {
       'quoted': messageInstance
     });
