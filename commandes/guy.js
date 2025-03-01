@@ -43,7 +43,7 @@ const date = moment().format('DD/MM/YYYY');
  ${message}
  
  
- *DULLAH-MD-BOT*`
+ *CRISS-MD-BOT*`
 
  if (lien.match(/\.(mp4|gif)$/i)) {
     try {
@@ -78,7 +78,7 @@ else {
      }
  } else {
 
-    if(!superUser) { repondre ("DULLAH MD") ; return};
+    if(!superUser) { repondre ("CRISS MD") ; return};
 
   
     const texte = arg.join(' ').split(';')[0];
