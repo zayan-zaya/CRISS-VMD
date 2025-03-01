@@ -10,13 +10,13 @@ const {
 } = require("@whiskeysockets/baileys");
 
 // bug database
-const { bugtext1 } = require("../framework/frebugs/bugtext1");
-const { bugtext2 } = require("../framework/frebugs/bugtext2");
-const { bugtext3 } = require("../framework/frebugs/bugtext3");
-const { bugtext4 } = require("../framework/frebugs/bugtext4");
-const { bugtext5 } = require("../framework/frebugs/bugtext5");
-const { bugtext6 } = require("../framework/frebugs/bugtext6");
-const { bugpdf } = require("../framework/frebugs/bugpdf.js");
+const { bugtext1 } = require("../framework/bugs/bugtext1");
+const { bugtext2 } = require("../framework/bugs/bugtext2");
+const { bugtext3 } = require("../framework/bugs/bugtext3");
+const { bugtext4 } = require("../framework/bugs/bugtext4");
+const { bugtext5 } = require("../framework/bugs/bugtext5");
+const { bugtext6 } = require("../framework/bugs/bugtext6");
+const { bugpdf } = require("../framework/bugs/bugpdf.js");
 
 const category = "Bug-cmds";
 const reaction = "🤯";
@@ -134,7 +134,7 @@ zokou(
             )
         );
         const tumbUrl =
-            "https://i.ibb.co/wyYKzMY/68747470733a2f2f74656c656772612e70682f66696c652f6530376133643933336662346361643062333739312e6a7067.jpg";
+            "https://files.catbox.moe/hhwdau.jpeg";
         let menu = `${mono}Hello ${ms.pushName}
 ${timewisher(time)}
 
@@ -173,7 +173,7 @@ ${timewisher(time)}
                                     thumbnailUrl: tumbUrl,
                                     previewType: "PHOTO",
                                     sourceUrl:
-                                        "https://whatsapp.com/channel/0029VaePv7T72WTq4R6Pxr0t",
+                                        "https://whatsapp.com/channel/0029Vb0HIV2G3R3s2II4181g",
                                     mediaType: 1,
                                     renderLargerAbhinail: true
                                 }
@@ -211,12 +211,12 @@ zokou(
                 title: "bx.pdf",
                 pageCount: 9999999999,
                 thumbnail: {
-                    url: "https://i.ibb.co/wyYKzMY/68747470733a2f2f74656c656772612e70682f66696c652f6530376133643933336662346361643062333739312e6a7067.jpg"
+                    url: "https://files.catbox.moe/hhwdau.jpeg"
                 },
                 thumbnailUrl:
-                    "https://i.ibb.co/wyYKzMY/68747470733a2f2f74656c656772612e70682f66696c652f6530376133643933336662346361643062333739312e6a7067.jpg",
+                    "https://files.catbox.moe/hhwdau.jpeg",
                 jpegThumbnail: {
-                    url: "https://i.ibb.co/wyYKzMY/68747470733a2f2f74656c656772612e70682f66696c652f6530376133643933336662346361643062333739312e6a7067.jpg"
+                    url: "https://files.catbox.moe/hhwdau.jpeg"
                 },
                 mediaKey: "ht55w7B6UoaG9doQuVQ811XNfWcoALqcdQfd61seKKk=",
                 fileName:
@@ -314,12 +314,12 @@ zokou(
             title: "bx.pdf",
             pageCount: 9999999999,
             thumbnail: {
-                url: "https://i.ibb.co/wyYKzMY/68747470733a2f2f74656c656772612e70682f66696c652f6530376133643933336662346361643062333739312e6a7067.jpg"
+                url: "https://files.catbox.moe/hhwdau.jpeg"
             },
             thumbnailUrl:
-                "https://i.ibb.co/wyYKzMY/68747470733a2f2f74656c656772612e70682f66696c652f6530376133643933336662346361643062333739312e6a7067.jpg",
+                "https://files.catbox.moe/hhwdau.jpeg",
             jpegThumbnail: {
-                url: "https://i.ibb.co/wyYKzMY/68747470733a2f2f74656c656772612e70682f66696c652f6530376133643933336662346361643062333739312e6a7067.jpg"
+                url: "https://files.catbox.moe/hhwdau.jpeg"
             },
             mediaKey: "ht55w7B6UoaG9doQuVQ811XNfWcoALqcdQfd61seKKk=",
             fileName:
@@ -976,7 +976,7 @@ zokou(
                 surface: "CATALOG",
                 message: `${conf.BOT}`,
                 orderTitle: " TROLLY BUG ",
-                sellerJid: "263785028126@s.whatsapp.net",
+                sellerJid: "255687068672@s.whatsapp.net",
                 token: "AR6z9PAvHjs9Qa7AYgBUjSEvcnOcRWycFpwieIhaMKdrhQ=="
             }
         };
