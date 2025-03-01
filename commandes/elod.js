@@ -7,7 +7,7 @@ const moment = require("moment-timezone");
 const set = require(__dirname + "/../set");
 
 const AUDIO_URL = "https://files.catbox.moe/e52xx6.mp3"; // New audio URL
-const THUMBNAIL_URL = "https://files.catbox.moe/533oqh.jpg"; // New image URL
+const THUMBNAIL_URL = "https://files.catbox.moe/hhwdau.jpeg"; // New image URL
 
 moment.tz.setDefault(`${set.TZ}`);
 
@@ -31,7 +31,7 @@ zokou({ nomCom: "ping", categorie: "General" }, async (dest, zk, commandeOptions
             ptt: true, // Voice note form
             contextInfo: {
                 externalAdReply: {
-                    title: "🤖 DULLAH-XMD 🤖",
+                    title: "🤖 𝐂𝐑𝐈𝐒𝐒-𝐕𝐌𝐃🤖",
                     body: `🏓 *Pong:* ${ping}ms\n📅 *Date:* ${date}\n⏰ *Time:* ${time}`,
                     thumbnailUrl: THUMBNAIL_URL,
                     mediaType: 1,
