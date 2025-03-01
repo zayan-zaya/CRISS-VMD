@@ -28,7 +28,7 @@ async function loading(dest, zk) {
     "⬜⬜⬛⬛⬛⬛⬜⬜꧁60%꧂",
     "⬜⬜⬜⬜⬛⬛⬛⬛꧁80%꧂",
     "⬛⬛⬜⬜⬜⬜⬛⬛꧁100%꧂",
-    "* 𝚃𝙸𝙼𝙽𝙰𝚂𝙰-𝙸𝚂-𝟿𝟿𝟿𝟿𝟿𝟿𝟿𝟿-𝚂𝙿𝙴𝙴𝙳⚔️🗡️*"
+    "*𝐂𝐑𝐈𝐒𝐒 𝐌𝐃-𝐒𝐏𝐄𝐄𝐃 𝐈𝐒⚔️🌟*"
   ];
 
   let { key } = await zk.sendMessage(dest, { text: 'Loading Please Wait' });
@@ -40,10 +40,10 @@ async function loading(dest, zk) {
 }
 
 zokou({
-  nomCom: "alive1",
+  nomCom: "alive",
   aliases: ["alive", "testing"],
   categorie: "system",
-  reaction: "⚔️"
+  reaction: "🌟"
 }, async (dest, zk, commandeOptions) => {
   const { ms } = commandeOptions;
 
@@ -64,7 +64,8 @@ zokou({
     'https://files.catbox.moe/wx8q6h.mp3',
     'https://files.catbox.moe/uj8fps.m4a',
     'https://files.catbox.moe/dc88bx.m4a',
-    'https://files.catbox.moe/tn32z0.m4a'
+    'https://files.catbox.moe/jy8ee7.mp3'
+    'https://files.catbox.moe/9j7rh2.mp3'
   ];
 
   // Randomly pick an audio file from the list
@@ -81,7 +82,7 @@ zokou({
     fileName: 'shizo',
     contextInfo: {
       externalAdReply: {
-        title: '𝗧𝗜𝗠𝗡𝗔𝗦𝗔 𝗠𝗗 𝗜 𝗔𝗠 𝗔𝗟𝗜𝗩𝗘 𝗠𝗢𝗧𝗛𝗘𝗥𝗙𝗨𝗖𝗞𝗘𝗥',
+        title: '𝐂𝐑𝐈𝐒𝐒 𝐌𝐃 𝐈𝐒 𝐀𝐋𝐈𝐕𝐄 𝐀𝐋𝐋 𝐓𝐇𝐄 𝐓𝐈𝐌𝐄',
         body: conf.OWNER_NAME,
         thumbnailUrl: conf.URL,
         sourceUrl: conf.GURL, // Corrected variable name
@@ -254,11 +255,11 @@ zokou({
 
 zokou(
   {
-    nomCom: 'ping2',
+    nomCom: 'ping1',
     aliases: ['speed', 'latency'],
     desc: 'To check bot response time',
     categorie: 'system', // Fixed the typo here (Categorie -> categorie)
-    reaction: '⚡',
+    reaction: '🌟',
     fromMe: true, // Removed quotes to make it a boolean
   },
   async (dest, zk) => {
