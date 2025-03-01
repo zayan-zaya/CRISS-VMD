@@ -2,14 +2,14 @@ const { zokou } = require("../framework/zokou");
 const {getAllSudoNumbers,isSudoTableNotEmpty} = require("../bdd/sudo")
 const conf = require("../set");
 
-zokou({ nomCom: "owner", categorie: "General", reaction: "🇹🇿" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "owner", categorie: "General", reaction: "🚘" }, async (dest, zk, commandeOptions) => {
     const { ms , mybotpic } = commandeOptions;
     
   const thsudo = await isSudoTableNotEmpty()
 
   if (thsudo) {
      let msg = `*My Super-User*\n
-     *Owner Number\n* :
+     *Owner Number*\n :
 - 🌟 @${conf.NUMERO_OWNER}
 
 ------ *other sudos* -----\n`
@@ -51,16 +51,16 @@ zokou({ nomCom: "owner", categorie: "General", reaction: "🇹🇿" }, async (de
   }
 });
 
-zokou({ nomCom: "dev", categorie: "General", reaction: "🫶" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "dev", categorie: "General", reaction: "🚘" }, async (dest, zk, commandeOptions) => {
     const { ms, mybotpic } = commandeOptions;
 
     const devs = [
-      { nom: "Criss md bot", numero: "255687068672" },
-          { nom: "Criss Sir", numero: "255687068672" },
+      { nom: "Criss", numero: "255687068672" },
+      { nom: "Ibrahim", numero: "254710772666" },
       // Ajoute d'autres développeurs ici avec leur nom et numéro
     ];
 
-    let message = "Hello👋 Friend Welcome🤝 To Criss Md Bot! here is the dev :\n\n";
+    let message = "WELCOME TO CRISS VEVO HELP CENTER! ASK FOR HELP FROM ANY OF THE DEVELOPERS BELOW:\n\n";
     for (const dev of devs) {
       message += `----------------\n• ${dev.nom} : https://wa.me/${dev.numero}\n`;
     }
@@ -94,48 +94,7 @@ else {
 zokou({ nomCom: "support", categorie: "General" }, async (dest, zk, commandeOptions) => {
   const { ms, repondre, auteurMessage, } = commandeOptions; 
  
-  repondre("look on pm sir ")
-  await zk.sendMessage(auteurMessage,{text :`https://whatsapp.com/channel/0029Vb0HIV2G3R3s2II4181g`},{quoted :ms})
+  repondre("THANK YOU FOR CHOOSING CRISS VEVO, HERE ARE OUR SUPPORTIVE LINKS\n\n ☉ CHANNEL LINK IS HERE ☉ \n\n❒⁠⁠⁠⁠[https://whatsapp.com/channel/0029Vb0HIV2G3R3s2II4181g] \n\n ☉ GROUP LINK IS HERE ☉\n\n❒⁠⁠⁠⁠[https://chat.whatsapp.com/Lh5EQEYJn5VIa4atNRPBm5] \n\n ☉YOUTUBE LINK IS HERE ☉\n\n❒⁠⁠⁠⁠[https://youtube.com/@criss_vevo?si=Va1vaZrdlfok0SWP] \n\n\n*POWERED BY CRISS VEVO") 
+  await zk.sendMessage(auteurMessage,{text : `THANK YOU FOR CHOOSING CRISS VEVO,MAKE SURE YOU FOLLOW THESE LINKS. `},{quoted :ms})
 
 })
-
-zokou({ nomCom: "developer", categorie: "General", reaction: "🦁" }, async (dest, zk, commandeOptions) => {
-    const { ms, mybotpic } = commandeOptions;
-
-    const devs = [
-      { nom: "Criss", numero: "255687068672" },
-      { nom: "Criss Md bot", numero: "255687068672" },
-      // Ajoute d'autres développeurs ici avec leur nom et numéro
-    ];
-
-    let message = "👋 *Welcome to Criss md bot* here is the developer numbers:\n\n";
-    for (const dev of devs) {
-      message += `----------------\n• ${dev.nom} : https://wa.me/${dev.numero}\n`;
-    }
-  var lien = mybotpic()
-    if (lien.match(/\.(mp4|gif)$/i)) {
-    try {
-        zk.sendMessage(dest, { video: { url: lien }, caption:message }, { quoted: ms });
-    }
-    catch (e) {
-        console.log("🥵🥵 Menu erreur " + e);
-        repondre("🥵🥵 Menu erreur " + e);
-    }
-} 
-// Vérification pour .jpeg ou .png
-else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
-    try {
-        zk.sendMessage(dest, { image: { url: lien }, caption:message }, { quoted: ms });
-    }
-    catch (e) {
-        console.log("🥵🥵 Menu erreur " + e);
-        repondre("🥵🥵 Menu erreur " + e);
-    }
-} 
-else {
-    repondre(lien)
-    repondre("link error");
-    
-}
-});
-    
