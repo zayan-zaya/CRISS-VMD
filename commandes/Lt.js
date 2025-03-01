@@ -29,7 +29,7 @@ zokou({
     const { respond, prefix, nomAuteurMessage } = context;
     const commands = require(__dirname + "/../framework/zokou").cm;
 
-    let menu = 'ᴅᴜʟʟᴀʜ-xᴍᴅ v² ʟɪsᴛ\n\n';
+    let menu = '𝗖𝗥𝗜𝗦𝗦 𝗩𝗘𝗩𝗢 𝗟𝗜𝗦𝗧\n\n';
     let keithList = [];
 
     // Loop through all commands to fetch the relevant information (commands, description, and aliases)
@@ -59,10 +59,10 @@ zokou({
         text: menu,
         contextInfo: {
             externalAdReply: {
-                title: "ᴅᴜʟʟᴀʜ-xᴍᴅ v²",
-                body: "𝐫𝐞𝐠𝐚𝐫𝐝𝐬 ᴅᴜʟʟᴀʜ-xᴍᴅ",
-                thumbnailUrl: "https://files.catbox.moe/533oqh.jpg",
-                sourceUrl: "https://chat.whatsapp.com/IdRXU9UcO8K50GPelOyhxh",
+                title: "𝐂𝐑𝐈𝐒𝐒 𝐕𝐄𝐕𝐎 𝐔𝐏𝐃𝐀𝐓𝐄𝐒",
+                body: "𝐫𝐞𝐠𝐚𝐫𝐝𝐬 𝐂𝐑𝐈𝐒𝐒-𝐕𝐌𝐃",
+                thumbnailUrl: "https://files.catbox.moe/hhwdau.jpeg",
+                sourceUrl: "https://whatsapp.com/channel/0029Vb0HIV2G3R3s2II4181g",
                 mediaType: 1,
                 renderLargerThumbnail: true
             }
