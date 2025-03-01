@@ -7,9 +7,9 @@ const gis = require('g-i-s');
 
 
 zokou({
-  'nomCom': 'apk',
+  'nomCom': 'apk1',
   'aliases': ['app', 'playstore'],
-  'reaction': '🗂️',
+  'reaction': '🉑',
   'categorie': 'Download'
 }, async (groupId, client, context) => {
   const { repondre, arg, ms } = context;
@@ -46,7 +46,7 @@ zokou({
         document: { url: appDetails.BK9.dllink },
         fileName: `${appDetails.BK9.name}.apk`,
         mimetype: "application/vnd.android.package-archive",
-        caption: "*power by ☆ɴᴊᴀʙᴜʟᴏ-ᴊʙ✧*"
+        caption: "𝗧𝗜𝗠𝗡𝗔𝗦𝗔-𝗧𝗠𝗗"
       },
       { quoted: ms }
     );
