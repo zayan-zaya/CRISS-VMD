@@ -13,13 +13,13 @@ zokou({ nomCom: 'quote', categorie: 'Group' }, async (dest, zk, commandeOptions)
       fetch('https://animechan.xyz/api/random')
         .then((response) => response.json())
         .then(async (quote) => {
-          repondre(`*DULLAH_MD Quotes*
+          repondre(`*𝐂𝐑𝐈𝐒𝐒-𝐕𝐌𝐃 Quotes*
 
 🎬 Anime: ${quote.anime}
 👤 Character: ${quote.character}
 💬 Quote: ${quote.quote}
 
-Powered by *DULLAH_MD*`);
+Powered by *𝐂𝐑𝐈𝐒𝐒 𝐕𝐄𝐕𝐎*`);
         });
     } catch (e) {
       repondre('Erreur lors de la génération de la citation : ' + e.message);
@@ -31,13 +31,13 @@ Powered by *DULLAH_MD*`);
       fetch('https://animechan.xyz/api/random/character?name=' + query)
         .then((response) => response.json())
         .then(async (quote) => {
-          repondre(`DULLAH_MD
+          repondre(`𝐂𝐑𝐈𝐒𝐒-𝐕𝐌𝐃
 
 🎬 Anime: ${quote.anime}
 👤 Character: ${quote.character}
 💬 Quote: ${quote.quote}
 
-Powered by *DULLAH MD*`);
+Powered by *𝐂𝐑𝐈𝐒𝐒 𝐕𝐄𝐕𝐎*`);
         });
     } catch (e) {
       repondre('Erreur lors de la génération de la citation : ' + e.message);
