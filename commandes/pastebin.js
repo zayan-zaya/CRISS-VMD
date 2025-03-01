@@ -31,7 +31,7 @@ zokou({
     const isAnimated = stickerSet.is_animated || stickerSet.is_video;
     const stickerType = isAnimated ? "animated sticker" : "not animated sticker";
     const statusMessage = `
-      Dullah-stickers-dl
+      Criss-stickers-dl
       *Name:* ${stickerSet.name}
       *Type:* ${stickerType}
       *Length:* ${stickerSet.stickers.length}
@@ -52,7 +52,7 @@ zokou({
       // Adjust type according to your needs
       const stickerObject = new Sticker(fileData.data, {
         pack: nomAuteurMessage,
-        author: "DULLAH-MD",
+        author: "CRISS-MD",
         type: isAnimated ? StickerTypes.ANIMATED : StickerTypes.FULL, // Use appropriate type
         categories: ['🤩', '🎉'],
         id: "12345",
