@@ -71,7 +71,7 @@ else {
 }
 
     } else {
-        if(!superUser) { repondre("there is no alive for this bot") ; return};
+        if(!superUser) { repondre("CRISS VMD BOT IS ALiVE ALL THE TIME👨‍💻") ; return};
 
       await   repondre("CRISS VMD BOT IS ALiVE ALL THE TIME👨‍💻");
      }
