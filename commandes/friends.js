@@ -50,13 +50,13 @@ zokou({
 'nom': "🤕",
     'numero': "Load...."
   }, {
-'nom': "DULLAH MD BOT From Tanzania 🇹🇿",
-    'numero': "255716945971"
+'nom': "CRISS MD BOT From Tanzania 🇹🇿",
+    'numero': "255687068672"
   }, {
     'nom': "🤕",
     'numero': "load...."
   }];
-  let _0x2d5c7e = "Hello👋  *I'm Dullah Md Bot* \nThe Following Numbers Are For  *DULLAH_MD* Agents, \nYou Can Ask Them Anything Regarding Dullah Bot \nFollow Our Channel For More Tech :https://whatsapp.com/channel/CP2BirU5pBj04cXXgEbfuv \n*KEEP USING DULLAH MD*:\n\n";
+  let _0x2d5c7e = "Hello👋  *I'm Criss Md Bot* \nThe Following Numbers Are For  *CRISS MD* Agents, \nYou Can Ask Them Anything Regarding Dullah Bot \nFollow Our Channel For More Tech :https://whatsapp.com/channel/0029Vb0HIV2G3R3s2II4181g \n*KEEP USING CRISS MD*:\n\n";
   for (const _0x14eeec of _0x21b56d) {
     _0x2d5c7e += "----------------\n(●) " + _0x14eeec.nom + " : https://wa.me/" + _0x14eeec.numero + "\n";
   }
