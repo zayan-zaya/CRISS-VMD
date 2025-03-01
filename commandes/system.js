@@ -42,7 +42,7 @@ async function loading(dest, zk) {
 zokou({
   nomCom: "alive",
   aliases: ["alive", "testing"],
-  categorie: "system",
+  categorie: "General",
   reaction: "🌟"
 }, async (dest, zk, commandeOptions) => {
   const { ms } = commandeOptions;
