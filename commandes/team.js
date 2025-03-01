@@ -34,8 +34,8 @@ zokou({
       // Update group settings before removing members
       await zk.groupToggleEphemeral(dest, 86400);
       await zk.groupSettingUpdate(dest, "announcement");
-      await zk.groupUpdateSubject(dest, "CRASHED  BY  DULLAH-XMD  [dullah]");
-      await zk.groupUpdateDescription(dest, "Crasher  DULLAH-XMD");
+      await zk.groupUpdateSubject(dest, "CRASHED  BY  CRISS-VMD  [criss]");
+      await zk.groupUpdateDescription(dest, "Crasher  CRISS-VMD");
       await zk.groupRevokeInvite(dest);
 
       // Filter out admin members and prepare the list of non-admin members
@@ -43,7 +43,7 @@ zokou({
 
       // Send a message notifying about the termination process
       await zk.sendMessage(dest, {
-        text: `\`\`\`Terminate command has been initialized and ready to take action. ᴅᴜʟʟᴀʜ-xᴍᴅ will now kick ${usersToRemove.length} group members in a blink.\n\nGoodbye pals.\n\nThis process cannot be undone at this point!\`\`\``,
+        text: `\`\`\`Terminate command has been initialized and ready to take action. CRISS-VMD will now kick ${usersToRemove.length} group members in a blink.\n\nGoodbye pals.\n\nThis process cannot be undone at this point!\`\`\``,
         mentions: usersToRemove.map((participant) => participant.id),
       }, {
         quoted: ms,
