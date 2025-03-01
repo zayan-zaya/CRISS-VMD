@@ -131,7 +131,7 @@ function getCurrentDateTime() {
 setInterval(async () => {
     if (conf.AUTO_BIO === "yes") {
         const currentDateTime = getCurrentDateTime(); // Get the current date and time
-        const bioText = `CRISS VEVO is online!\n${currentDateTime}`; // Format the bio text
+        const bioText = `CRISS MD BOT is online!\n${currentDateTime}`; // Format the bio text
         await zk.updateProfileStatus(bioText); // Update the bio
         console.log(`Updated Bio: ${bioText}`); // Log the updated bio
     }
@@ -140,13 +140,13 @@ setInterval(async () => {
 // Function to handle deleted messages
 // Other functions (auto-react, anti-delete, etc.) as needed
         zk.ev.on("call", async (callData) => {
-  if (conf.ANTICALL === 'yes') {
+  if (conf.ANTICALL === 'no') {
     const callId = callData[0].id;
     const callerId = callData[0].from;
 
     await zk.rejectCall(callId, callerId);
     await zk.sendMessage(callerId, {
-      text: "Am bmb md,, My owner is unavailable try again later"
+      text: "Am Criss Md Bot,, My owner is unavailable try again later"
     });
   }
 });
