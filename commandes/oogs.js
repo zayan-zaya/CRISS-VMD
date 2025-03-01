@@ -1,6 +1,6 @@
 // this is my shit 💀 lemme not find it in your project 
 // Thanks chatgpt 😍😍
-// reach me before copy pasting it 255716945971
+// reach me before copy pasting it 255687068672
 
 const { zokou } = require("../framework/zokou");
 const axios = require("axios");
