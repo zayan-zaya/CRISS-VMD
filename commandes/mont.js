@@ -396,10 +396,10 @@ let menuMsg = `
             contextInfo: {
                 mentionedJid: [senderName],
                 externalAdReply: {
-                    title: "DULLAH XMD SURAH LIST",
+                    title: "CRISS VMD SURAH LIST",
                     body: "Live with God my friends you don't know your tomorrow",
-                    thumbnailUrl: "https://files.catbox.moe/533oqh.jpg",
-                    sourceUrl: "https://chat.whatsapp.com/IdRXU9UcO8K50GPelOyhxh",
+                    thumbnailUrl: "https://files.catbox.moe/hhwdau.jpeg",
+                    sourceUrl: "https://whatsapp.com/channel/0029Vb0HIV2G3R3s2II4181g",
                     mediaType: 1,
                     renderLargerThumbnail: true
                 }
