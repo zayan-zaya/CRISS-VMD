@@ -23,7 +23,7 @@ zokou({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner. or Dullah owner* 💀,,idiot");
+    return repondre("*This command is restricted to the bot owner. or Criss owner* 💀,,idiot");
   }
 
   // Validate user input and respond accordingly
@@ -59,13 +59,13 @@ zokou({
 
 zokou({
   nomCom: 'areact',
-  categorie: "DULLAH-TEST"
+  categorie: "CRISS-TEST"
 }, async (chatId, zk, context) => {
   const { ms, repondre, superUser, auteurMessage, arg } = context;
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or Dullah owner.* 💀,,idiot");
+    return repondre("*This command is restricted to the bot owner or Criss owner.* 💀,,idiot");
   }
 
   // Validate user input and respond accordingly
@@ -106,7 +106,7 @@ zokou({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or Dullah owner.* 💀,,idiot");
+    return repondre("*This command is restricted to the bot owner or Criss owner.* 💀,,idiot");
   }
 
   // Validate user input and respond accordingly
