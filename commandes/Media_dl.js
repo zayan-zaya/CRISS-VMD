@@ -94,7 +94,7 @@ zokou({
 
     // Prepare the message caption with video details
     const caption = `
-     *DULLAH XMD FB DL*
+     *CRISS VMD FB DL*
     |__________________________|
     |       *ᴅᴜʀᴀᴛɪᴏɴ*  
            ${videoData.result.duration}
@@ -178,8 +178,8 @@ zokou({
               url: videoDetails.links.SD
             },
             mimetype: "audio/mpeg",
-            fileName: "Dullah.mp3",
-            caption: "*ᴅᴜʟʟᴀʜ-xᴍᴅ*"
+            fileName: "criss vmd.mp3",
+            caption: "*CRISS VMD*"
           }, {
             quoted: messageContent
           });
@@ -229,7 +229,7 @@ zokou({
     let tiktokData = await downloadTiktok(arg[0]);
 
     const caption = `
-     *ᴅᴜʟʟᴀʜ-xᴍᴅ 𝐓𝐈𝐊𝐓𝐎𝐊 𝐃𝐋*
+     *𝐂𝐑𝐈𝐒𝐒-𝐕𝐌𝐃 𝐓𝐈𝐊𝐓𝐎𝐊 𝐃𝐋*
     |__________________________|
     |-᳆        *ᴛɪᴛʟᴇ*  
      ${tiktokData.result.title}
@@ -276,12 +276,12 @@ zokou({
         if (responseText === '1') {
           await zk.sendMessage(keithdl, {
             video: { url: tiktokLinks.dl_link.download_mp4_1 },
-            caption: "*ᴅᴜʟʟᴀʜ-xᴍᴅ*",
+            caption: "*𝐂𝐑𝐈𝐒𝐒-𝐕𝐌𝐃*",
           }, { quoted: messageContent });
         } else if (responseText === '2') {
           await zk.sendMessage(keithdl, {
             video: { url: tiktokLinks.dl_link.download_mp4_2 },
-            caption: "*ᴅᴜʟʟᴀʜ-xᴍᴅ*",
+            caption: "*𝐂𝐑𝐈𝐒𝐒-𝐕𝐌𝐃*",
           }, { quoted: messageContent });
         } else if (responseText === '3') {
           await zk.sendMessage(keithdl, {
