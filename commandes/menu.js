@@ -63,7 +63,7 @@ const date = moment().format('DD/MM/YYYY');
     }
     
     menuMsg += `
-> @𝐌𝐀𝐃𝐄 𝐁𝐘 𝐂𝐑𝐈𝐒𝐒 𝐕𝐄𝐕𝐎
+╰━━✧𝐌𝐀𝐃𝐄 𝐁𝐘 𝐂𝐑𝐈𝐒𝐒 𝐕𝐄𝐕𝐎✧━━━◆
 `;
 
    var lien = mybotpic();
