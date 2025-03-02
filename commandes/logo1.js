@@ -5,11 +5,11 @@ const {
 const axios = require("axios");
 
 const _0x1a0cd5 = {
-  pattern: "logo1",
+  pattern: "logo",
   desc: "image.",
   react: '🌌',
   category: "logo",
-  use: ".logo1",
+  use: ".logo",
   filename: __filename
 };
 cmd(_0x1a0cd5, async (_0x500327, _0x56d921, _0x38f95e, {
@@ -56,11 +56,11 @@ cmd(_0x1a0cd5, async (_0x500327, _0x56d921, _0x38f95e, {
   }
 });
 const _0x4b62e9 = {
-  pattern: "logo2",
+  pattern: "logo",
   desc: "image.",
   react: '🌌',
   category: "logo",
-  use: ".logo2",
+  use: ".logo",
   filename: __filename
 };
 cmd(_0x4b62e9, async (_0x557a42, _0x518f8a, _0x27d789, {
