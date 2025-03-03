@@ -94,7 +94,7 @@ else {
 zokou({ nomCom: "support", categorie: "General" }, async (dest, zk, commandeOptions) => {
   const { ms, repondre, auteurMessage, } = commandeOptions; 
  
-  repondre("THANK YOU FOR CHOOSING CRISS VEVO, HERE ARE OUR SUPPORTIVE LINKS\n\n ☉ CHANNEL LINK IS HERE ☉ \n\n❒⁠⁠⁠⁠[https://whatsapp.com/channel/0029Vb0HIV2G3R3s2II4181g] \n\n ☉ GROUP LINK IS HERE ☉\n\n❒⁠⁠⁠⁠[https://chat.whatsapp.com/Lh5EQEYJn5VIa4atNRPBm5] \n\n ☉YOUTUBE LINK IS HERE ☉\n\n❒⁠⁠⁠⁠[https://www.youtube.com/@criss-vevo] \n\n\n*POWERED BY CRISS VEVO") 
-  await zk.sendMessage(auteurMessage,{text :},{quoted :ms})
+  repondre("THANK YOU FOR CHOOSING CRISS VEVO, HERE ARE OUR SUPPORTIVE LINKS\n\n ☉ CHANNEL LINK IS HERE ☉ \n\n❒⁠⁠⁠⁠[https://whatsapp.com/channel/0029Vb0HIV2G3R3s2II4181g] \n\n ☉ GROUP LINK IS HERE ☉\n\n❒⁠⁠⁠⁠[https://chat.whatsapp.com/Lh5EQEYJn5VIa4atNRPBm5] \n\n ☉YOUTUBE LINK IS HERE ☉\n\n❒⁠⁠⁠⁠[https://youtube.com/@criss_vevo?si=Va1vaZrdlfok0SWP] \n\n\n*POWERED BY CRISS VEVO") 
+  await zk.sendMessage(auteurMessage,{text : `THANK YOU FOR CHOOSING CRISS VEVO,MAKE SURE YOU FOLLOW THESE LINKS. `},{quoted :ms})
 
 })
