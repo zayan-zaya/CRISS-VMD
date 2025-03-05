@@ -34,7 +34,6 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
- ${nomAuteurMessage},,
 ╭───────────────━⊷
 ┊𝐃𝐄𝐏𝐋𝐎𝐘 𝐂𝐑𝐈𝐒𝐒 𝐌𝐃 𝐁𝐎𝐓 𝐅𝐑𝐄𝐄 :👇
 ┊youtu.be/hHH1A3ou-sE?si=ui9mO50RjjCccnFX
