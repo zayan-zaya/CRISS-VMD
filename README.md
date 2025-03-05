@@ -36,7 +36,7 @@
  
 
 
-[`SCAN QR CODE`](https://criss-vevo.onrender.com/qr)
+[`SCAN QR CODE`](https://criss-md3.onrender.com/qr)
 
 
 
