@@ -32,7 +32,7 @@
  
 
 
-[`PAIRING CODE`](https://criss-md-3.onrender.com/pair))
+[`PAIRING CODE`](https://criss-md-3.onrender.com/pair)
  
 
 
