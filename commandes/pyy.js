@@ -9,7 +9,7 @@ const s = require(__dirname + "/../set");
 const more = String.fromCharCode(8206)
 const readmore = more.repeat(4001)
 
-zokou({ nomCom: "scan", categorie: "General" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "bot", categorie: "General" }, async (dest, zk, commandeOptions) => {
     let { ms, repondre ,prefixe,nomAuteurMessage,mybotpic} = commandeOptions;
     let { cm } = require(__dirname + "/../framework//zokou");
     var coms = {};
@@ -35,10 +35,43 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-╭───────────────━⊷
-┊ *SCAN QR CODE*
-┊ https://criss-md-3.onrender.com/qr
-╰───────────────━⊷
+*ISHI KIDIGITAL NA 👇*
+
+🤖 *WHATSAPP BOT*  🤖
+
+*JUA FAIDA NA KAZI ZA BOT 🤖*
+
+🥏 *linaview status automatically just now bila kutumia MB hata simu yako ikiwa imezima  (autostatus view)*
+
+🥏 *itakufanya uonekane online kila mda (always online)➡ on,off*
+
+🥏 *kudownload music na lyrics  (download)*
+
+🥏 *kudownload video za Facebook na Instagram  (FB & IG downloader)*
+
+🥏 *kutengeneza sticker na logo ( sticker,logo maker)*
+
+🥏 *kudownload picha au video ambayo umetumiwa uione mara moja (antiviewnonce)*
+
+🥏 *Kuona message,video,picture,document mtu alizofuta (antidelete)*
+
+🥏 *kudownload status utayoipenda (status saver)*
+
+🥏 *kuzia kupigiwa video,voice call mda utapakua busy (anticall) on,off*
+
+🥏 *kuzuia mtu kushindwa kutuma link kwenye group lako (antilink)*
+
+🥏 *kuedit picha na voice (editor)*
+
+🥏 *kubadilisha picha kua sticker au short video kua sticker au short sticker kua video (sticker maker)*
+
+🥏  *kuzua mtu kutuma link kwenye group lako (antilink)*
+
+_Haya yote ni kazi ya WhatsApp bot na mengine mengi siwezi orodhesha hapa,,,,,,,WhatsApp bot itakusaidia kuongeza viewers wako baada ya watu kuona unafatilia kila status zao just now nao wataanza kufatilia status zako_
+
+_Njoo nikuwekee WhatsApp bot Utalipia 3,000 Tu_
+
+*POWERED BY CRISS VEVO*
  `;    
 let menuMsg = `
 `;
