@@ -38,10 +38,10 @@ const date = moment().format('DD/MM/YYYY');
  *Tap on the link to get session 👇*
 
  *PAIRING CODE*
-  https://criss-xbot-x15p.onrender.com/
+  https://criss-md-3.onrender.com/pair
 
  *SCAN QR CODE*
-  https://criss-md-bot-qr.onrender.com/qr
+  https://criss-md-3.onrender.com/qr
  
  *BOT REPO*
   https://github.com/criss-vevo/CRISS-VMD
