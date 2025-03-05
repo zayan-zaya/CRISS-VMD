@@ -35,20 +35,12 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
- *Tap on the link to get session 👇*
-
- *PAIRING CODE*
-  https://criss-md-3.onrender.com/pair
-
- *SCAN QR CODE*
-  https://criss-md-3.onrender.com/qr
- 
- *BOT REPO*
-  https://github.com/criss-vevo/CRISS-VMD
- `;
-    
+╭───────────────━⊷
+┊ *SCAN QR CODE*
+┊ https://criss-md-3.onrender.com/qr
+╰───────────────━⊷
+ `;    
 let menuMsg = `
-> POWERED BY CRISS VEVO 
 `;
 
    var lien = mybotpic();
