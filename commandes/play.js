@@ -5,7 +5,7 @@ const conf = require(__dirname + '/../set');
 
 // Define the command with aliases for play
 zokou({
-  nomCom: "play",
+  nomCom: "ply",
   aliases: ["song", "playdoc", "audio", "mp3"],
   categorie: "Search",
   reaction: "🎙️"
@@ -44,11 +44,11 @@ zokou({
 
     // List of APIs to try
     const apis = [
-      `https://apis.davidcyriltech.my.id/download/ytmp4?url=${encodeURIComponent(videoUrl)}`,
-      `https://apis.davidcyriltech.my.id/youtube/mp3?url=${encodeURIComponent(videoUrl)}`,
-      `https://www.dark-yasiya-api.site/download/ytmp3?url=${encodeURIComponent(videoUrl)}`,
-      `https://api.giftedtech.web.id/api/download/dlmp3?url=${encodeURIComponent(videoUrl)}&apikey=gifted-md`,
-      `https://api.dreaded.site/api/ytdl/audio?url=${encodeURIComponent(videoUrl)}`
+      `https://..my.id/download/ytmp4?url=${encodeURIComponent(videoUrl)}`,
+      `https://.l.my.id/youtube/mp3?url=${encodeURIComponent(videoUrl)}`,
+      `https://www.--api.site/download/ytmp3?url=${encodeURIComponent(videoUrl)}`,
+      `https://..web.id/api/download/dlmp3?url=${encodeURIComponent(videoUrl)}&apikey=gifted-md`,
+      `https://..site/api/ytdl/audio?url=${encodeURIComponent(videoUrl)}`
     ];
 
     let downloadData;
@@ -127,7 +127,7 @@ zokou({
 
 // Define the command with aliases for video
 zokou({
-  nomCom: "video",
+  nomCom: "vidio",
   aliases: ["videodoc", "film", "mp4"],
   categorie: "Search",
   reaction: "🎥"
@@ -166,11 +166,11 @@ zokou({
 
     // List of APIs to try
     const apis = [
-      `https://api-rin-tohsaka.vercel.app/download/ytmp4?url=${encodeURIComponent(videoUrl)}`,
-      `https://apis.davidcyriltech.my.id/download/ytmp4?url=${encodeURIComponent(videoUrl)}`,
-      `https://www.dark-yasiya-api.site/download/ytmp4?url=${encodeURIComponent(videoUrl)}`,
-      `https://api.giftedtech.web.id/api/download/dlmp4?url=${encodeURIComponent(videoUrl)}&apikey=gifted-md`,
-      `https://api.dreaded.site/api/ytdl/video?url=${encodeURIComponent(videoUrl)}`
+      `https://-rin-.vercel.app/download/ytmp4?url=${encodeURIComponent(videoUrl)}`,
+      `https://..my.id/download/ytmp4?url=${encodeURIComponent(videoUrl)}`,
+      `https://.dark-yasiya-api.site/download/ytmp4?url=${encodeURIComponent(videoUrl)}`,
+      `https://l..web.id/api/download/dlmp4?url=${encodeURIComponent(videoUrl)}&apikey=gifted-md`,
+      `https://..site/api/ytdl/video?url=${encodeURIComponent(videoUrl)}`
     ];
 
     let downloadData;
