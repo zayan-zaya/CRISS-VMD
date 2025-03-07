@@ -36,7 +36,7 @@ const date = moment().format('DD/MM/YYYY');
   let infoMsg =  `
 ╭───────────────━⊷
 ┊𝐃𝐄𝐏𝐋𝐎𝐘 𝐂𝐑𝐈𝐒𝐒 𝐌𝐃 𝐁𝐎𝐓 𝐅𝐑𝐄𝐄 :👇
-┊youtu.be/hHH1A3ou-sE?si=ui9mO50RjjCccnFX
+┊https://youtu.be/_w2ulZqozOo?si=sbKdrK10QrM5_CU8
 ┊
 ┊𝐁𝐎𝐓 𝐑𝐄𝐏𝐎 : 👇
 ┊https://github.com/criss-vevo/CRISS-VMD
