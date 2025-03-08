@@ -5,7 +5,7 @@ var __createBinding = (this && this.__createBinding) || (Object.create ? (functi
     if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
       desc = { enumerable: true, get: function() { return m[k]; } };
     }
-    Object.defineProperty(o, k2, desc); 
+    Object.defineProperty(o, k2, desc);
 }) : (function(o, m, k, k2) {
     if (k2 === undefined) k2 = k;
     o[k2] = m[k];
@@ -52,8 +52,10 @@ const prefixe = conf.PREFIXE;
 const more = String.fromCharCode(8206)
 const readmore = more.repeat(4001)
 
+
 async function authentification() {
     try {
+       
         //console.log("le data "+data)
         if (!fs.existsSync(__dirname + "/auth/creds.json")) {
             console.log("connexion en cour ...");
@@ -107,101 +109,8 @@ setTimeout(() => {
             ///////
         };
         const zk = (0, baileys_1.default)(sockOptions);
-store.bind(zk.ev);
-        
-        
-
-// Function to get the current date and time in Kenya
-function getCurrentDateTime() {
-    const options = {
-        timeZone: 'Africa/Nairobi', // Kenya time zone
-        year: 'numeric',
-        month: '2-digit',
-        day: '2-digit',
-        hour: '2-digit',
-        minute: '2-digit',
-        second: '2-digit',
-        hour12: false, // 24-hour format
-    };
-    const dateTime = new Intl.DateTimeFormat('en-KE', options).format(new Date());
-    return dateTime;
-}
-
-// Auto Bio Update Interval
-setInterval(async () => {
-    if (conf.AUTO_BIO === "yes") {
-        const currentDateTime = getCurrentDateTime(); // Get the current date and time
-        const bioText = `CRISS MD BOT is online!\n${currentDateTime}`; // Format the bio text
-        await zk.updateProfileStatus(bioText); // Update the bio
-        console.log(`Updated Bio: ${bioText}`); // Log the updated bio
-    }
-}, 60000); // Update bio every 60 seconds
-
-// Function to handle deleted messages
-// Other functions (auto-react, anti-delete, etc.) as needed
-        zk.ev.on("call", async (callData) => {
-  if (conf.ANTICALL === 'no') {
-    const callId = callData[0].id;
-    const callerId = callData[0].from;
-
-    await zk.rejectCall(callId, callerId);
-    await zk.sendMessage(callerId, {
-      text: "Am Criss Md Bot,, My owner is unavailable try again later"
-    });
-  }
-});
-// Utility function for delay
-const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
-
-// Track the last reaction time to prevent overflow
-let lastReactionTime = 0;
-
-// Auto-react to status updates, handling each status one-by-one without tracking
-if (conf.AUTO_REACT_STATUS === "yes") {
-    console.log("AUTO_REACT_STATUS is enabled. Listening for status updates...");
-
-    zk.ev.on("messages.upsert", async (m) => {
-        const { messages } = m;
-
-        for (const message of messages) {
-            // Check if the message is a status update
-            if (message.key && message.key.remoteJid === "status@broadcast") {
-                console.log("Detected status update from:", message.key.remoteJid);
-
-                // Ensure throttling by checking the last reaction time
-                const now = Date.now();
-                if (now - lastReactionTime < 5000) {  // 5-second interval
-                    console.log("Throttling reactions to prevent overflow.");
-                    continue;
-                }
-
-                // Check if bot user ID is available
-                const adams = zk.user && zk.user.id ? zk.user.id.split(":")[0] + "@s.whatsapp.net" : null;
-                if (!adams) {
-                    console.log("Bot's user ID not available. Skipping reaction.");
-                    continue;
-                }
-
-                // React to the status with a green heart
-                await zk.sendMessage(message.key.remoteJid, {
-                    react: {
-                        key: message.key,
-                        text: "💙", // Reaction emoji
-                    },
-                }, {
-                    statusJidList: [message.key.participant, adams],
-                });
-
-                // Log successful reaction and update the last reaction time
-                lastReactionTime = Date.now();
-                console.log(`Successfully reacted to status update by ${message.key.remoteJid}`);
-
-                // Delay to avoid rapid reactions
-                await delay(2000); // 2-second delay between reactions
-            }
-        }
-    });
-}
+        store.bind(zk.ev);
+        setInterval(() => { store.writeToFile("store.json"); }, 3000);
         zk.ev.on("messages.upsert", async (m) => {
             const { messages } = m;
             const ms = messages[0];
@@ -247,10 +156,10 @@ if (conf.AUTO_REACT_STATUS === "yes") {
             var membreGroupe = verifGroupe ? ms.key.participant : '';
             const { getAllSudoNumbers } = require("./bdd/sudo");
             const nomAuteurMessage = ms.pushName;
-            const dj = '254710772666';
-            const dj2 = '254710772666';
-            const dj3 = "254710772666";
-            const luffy = '254710772666';
+            const dj = '255678892560';
+            const dj2 = '255678892560';
+            const dj3 = "255678892560";
+            const luffy = '255678892560';
             const sudo = await getAllSudoNumbers();
             const superUserNumbers = [servBot, dj, dj2, dj3, luffy, conf.NUMERO_OWNER].map((s) => s.replace(/[^0-9]/g) + "@s.whatsapp.net");
             const allAllowedNumbers = superUserNumbers.concat(sudo);
@@ -258,7 +167,7 @@ if (conf.AUTO_REACT_STATUS === "yes") {
             
             var dev = [dj, dj2,dj3,luffy].map((t) => t.replace(/[^0-9]/g) + "@s.whatsapp.net").includes(auteurMessage);
             function repondre(mes) { zk.sendMessage(origineMessage, { text: mes }, { quoted: ms }); }
-            console.log("\tCRISS VEVO");
+            console.log("\tANYWAY MD ONLINE");
             console.log("=========== written message===========");
             if (verifGroupe) {
                 console.log("message provenant du groupe : " + nomGroupe);
@@ -341,6 +250,7 @@ function mybotpic() {
             
             };
 
+
             /************************ anti-delete-message */
 
             if(ms.message.protocolMessage && ms.message.protocolMessage.type === 0 && (conf.ADM).toLocaleLowerCase() === 'yes' ) {
@@ -378,7 +288,7 @@ function mybotpic() {
         
                                     if(msg === null || !msg ||msg === 'undefined') {console.log('Message non trouver') ; return } 
         
-                                await zk.sendMessage(idBot,{ image : { url : './media/deleted-message.jpg'},caption : `        *Deleted message detected*\n\n 🚮 Deleted by @${msg.key.participant.split('@')[0]}​` , mentions : [msg.key.participant]},)
+                                await zk.sendMessage(idBot,{ image : { url : './media/deleted-message.jpg'},caption : `        😈Anti-delete-message😈\n Message from @${msg.key.participant.split('@')[0]}​` , mentions : [msg.key.participant]},)
                                 .then( () => {
                                     zk.sendMessage(idBot,{forward : msg},{quoted : msg}) ;
                                 })
@@ -618,7 +528,7 @@ function mybotpic() {
            // txt += `message supprimé \n @${auteurMessage.split("@")[0]} rétiré du groupe.`;
             const gifLink = "https://raw.githubusercontent.com/djalega8000/Zokou-MD/main/media/remover.gif";
             var sticker = new Sticker(gifLink, {
-                pack: 'Zoou-Md',
+                pack: 'Anyway-Md',
                 author: conf.OWNER_NAME,
                 type: StickerTypes.FULL,
                 categories: ['🤩', '🎉'],
@@ -762,7 +672,7 @@ zk.ev.on('group-participants.update', async (group) => {
         const metadata = await zk.groupMetadata(group.id);
 
         if (group.action == 'add' && (await recupevents(group.id, "welcome") == 'on')) {
-            let msg = `*CRISS-XBOT MD WELCOME MESSAGE*`;
+            let msg = `*NJABULO JB WELCOME MESSAGE*`;
             let membres = group.participants;
             for (let membre of membres) {
                 msg += ` \n❒ *Hey* 🖐️ @${membre.split("@")[0]} WELCOME TO OUR GROUP. \n\n`;
@@ -846,7 +756,7 @@ zk.ev.on('group-participants.update', async (group) => {
                   zk.sendMessage(crons[i].group_id, { image : { url : './media/chrono.webp'} , caption: "Hello, it's time to close the group; sayonara." });
 
                 }, {
-                    timezone: "Africa/Nairobi"
+                    timezone: "Africa/Tanzania"
                   });
               }
         
@@ -863,7 +773,7 @@ zk.ev.on('group-participants.update', async (group) => {
 
                  
                 },{
-                    timezone: "Africa/Nairobi"
+                    timezone: "Africa/Tanzania"
                   });
               }
         
@@ -896,18 +806,18 @@ zk.ev.on('group-participants.update', async (group) => {
         zk.ev.on("connection.update", async (con) => {
             const { lastDisconnect, connection } = con;
             if (connection === "connecting") {
-                console.log("ℹ️ CRISS VEVO is connecting...");
+                console.log("ℹ️ Njabulo Jb is connecting...");
             }
             else if (connection === 'open') {
-                console.log("✅ CRISS VEVO Connected to WhatsApp! ☺️");
+                console.log("✅ Njabulo Jb Connected to WhatsApp! ☺️");
                 console.log("--");
                 await (0, baileys_1.delay)(200);
                 console.log("------");
                 await (0, baileys_1.delay)(300);
                 console.log("------------------/-----");
-                console.log("CRISS VEVO is Online 🕸\n\n");
+                console.log("Anyway Md is Online 🕸\n\n");
                 //chargement des commandes 
-                console.log("Loading CRISS VEVO Commands ...\n");
+                console.log("Loading Anyway Commands ...\n");
                 fs.readdirSync(__dirname + "/commandes").forEach((fichier) => {
                     if (path.extname(fichier).toLowerCase() == (".js")) {
                         try {
@@ -938,21 +848,14 @@ zk.ev.on('group-participants.update', async (group) => {
                 
                 if((conf.DP).toLowerCase() === 'yes') {     
 
-                let cmsg =` ⁠⁠⁠⁠
-╭─────────────━┈⊷ 
-│🌏 *CRISS VEVO CONNECTED*
-╰─────────────━┈⊷
-│💫 ᴘʀᴇғɪx: *[ ${prefixe} ]*
-│⭕ ᴍᴏᴅᴇ: *${md}*
-│
-│FOLLOW MY CHANNEL FOR UPDATES
-│https://whatsapp.com/channel/0029Vb0HIV2G3R3s2II4181g
-╰─────────────━┈⊷
-
-                
-                
-                 `;
-                    
+                let cmsg =`      ╭─────────────━┈⊷ 
+│ *ɴᴊᴀʙᴜʟᴏ ᴊʙ ᴄᴏɴɴᴇᴄᴛᴇᴅ*
+ |─────────────━┈⊷
+│ᴘʀᴇғɪx: * [ ${prefix} *
+│ᴍᴏᴅᴇ: * ${mode}*
+│ʙᴏᴛ ɴᴀᴍᴇ: *ɴᴊᴀʙᴜʟᴏ ᴊʙ*
+│ᴏᴡɴᴇʀ : *ɴᴊᴀʙᴜʟᴏ ᴊʙ*
+╰─────────────━┈⊷⁠⁠⁠⁠`;
                 await zk.sendMessage(zk.user.id, { text: cmsg });
                 }
             }
