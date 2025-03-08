@@ -672,7 +672,7 @@ zk.ev.on('group-participants.update', async (group) => {
         const metadata = await zk.groupMetadata(group.id);
 
         if (group.action == 'add' && (await recupevents(group.id, "welcome") == 'on')) {
-            let msg = `*NJABULO JB WELCOME MESSAGE*`;
+            let msg = `*CRISS MD WELCOME MESSAGE*`;
             let membres = group.participants;
             for (let membre of membres) {
                 msg += ` \n❒ *Hey* 🖐️ @${membre.split("@")[0]} WELCOME TO OUR GROUP. \n\n`;
@@ -806,10 +806,10 @@ zk.ev.on('group-participants.update', async (group) => {
         zk.ev.on("connection.update", async (con) => {
             const { lastDisconnect, connection } = con;
             if (connection === "connecting") {
-                console.log("ℹ️ Njabulo Jb is connecting...");
+                console.log("ℹ️ Criss Md is connecting...");
             }
             else if (connection === 'open') {
-                console.log("✅ Njabulo Jb Connected to WhatsApp! ☺️");
+                console.log("✅ Criss Md Connected to WhatsApp! ☺️");
                 console.log("--");
                 await (0, baileys_1.delay)(200);
                 console.log("------");
@@ -849,12 +849,12 @@ zk.ev.on('group-participants.update', async (group) => {
                 if((conf.DP).toLowerCase() === 'yes') {     
 
                 let cmsg =`      ╭─────────────━┈⊷ 
-│ *ɴᴊᴀʙᴜʟᴏ ᴊʙ ᴄᴏɴɴᴇᴄᴛᴇᴅ*
+│ *CRISS MD CONNECTED*
  |─────────────━┈⊷
 │ᴘʀᴇғɪx: * [ ${prefix} *
 │ᴍᴏᴅᴇ: * ${mode}*
-│ʙᴏᴛ ɴᴀᴍᴇ: *ɴᴊᴀʙᴜʟᴏ ᴊʙ*
-│ᴏᴡɴᴇʀ : *ɴᴊᴀʙᴜʟᴏ ᴊʙ*
+│ʙᴏᴛ ɴᴀᴍᴇ: *CRISS MD*
+│ᴏᴡɴᴇʀ : *CRISS VEVO*
 ╰─────────────━┈⊷⁠⁠⁠⁠`;
                 await zk.sendMessage(zk.user.id, { text: cmsg });
                 }
